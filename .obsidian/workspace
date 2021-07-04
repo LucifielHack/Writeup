@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "HTB/Machines/Traverxec/README.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "HTB/Machines/Traverxec/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "a1c2ae716b2eee31",
   "lastOpenFiles": [
+    "HTB/Machines/Traverxec/README.md",
     "README.md",
+    "HTB/Machines/knife/README.md",
     "HTB/Machines/Monitors/README.md",
     "HTB/Machines/dynstr/README.md",
     "HTB/Machines/Pit/README.md",
     "HTB/Machines/Tenet/README.md",
     "HTB/Machines/TheNotebook/README.md",
-    "HTB/Machines/Traverxec/README.md",
     "HTB/Machines/Writeup/README.md",
-    "HTB/Machines/OpenAdmin/README.md",
-    "HTB/Machines/Explore/README.md"
+    "HTB/Machines/OpenAdmin/README.md"
   ]
 }
