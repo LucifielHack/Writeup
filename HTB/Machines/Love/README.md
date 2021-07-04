@@ -1,4 +1,4 @@
-# Love HacktheBox Walkthrough
+# Love HacktheBox Writeup
 
 ## All Ports Scan
 ```bash

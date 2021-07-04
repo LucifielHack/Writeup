@@ -1,4 +1,4 @@
-# Armageddon Hackthebox Walkthrough
+# Armageddon Hackthebox Writeup
 
 ## All Ports
 ```bash

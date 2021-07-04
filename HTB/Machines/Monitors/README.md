@@ -1,4 +1,4 @@
-# Monitors Hackthebox Walkthrough
+# Monitors Hackthebox Writeup
 
 ## All Ports Scan
 

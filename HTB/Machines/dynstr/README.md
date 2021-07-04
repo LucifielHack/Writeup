@@ -1,4 +1,4 @@
-# dynster Hackthebox Walkthrough
+# dynster Hackthebox Writeup
 
 ## All Ports Scan
 ```bash

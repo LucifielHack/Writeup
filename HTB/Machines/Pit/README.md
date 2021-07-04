@@ -1,4 +1,4 @@
-# Pit Hackthebox Walkthrough
+# Pit Hackthebox Writeup
 
 ## All Ports Scan
 

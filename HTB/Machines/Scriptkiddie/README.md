@@ -1,4 +1,4 @@
-# Scriptkiddie Hackthebox Walkthrough
+# Scriptkiddie Hackthebox Writeup
 
 ## All Ports Scan
 ```bash

@@ -1,4 +1,4 @@
-# Writeup Hackthebox Walkthrough
+# Writeup Hackthebox Writeup
 
 ## All Ports Scan
 

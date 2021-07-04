@@ -1,4 +1,4 @@
-# Tenet Hackthebox Walkthrough
+# Tenet Hackthebox Writeup
 
 ## All Ports Scan
 

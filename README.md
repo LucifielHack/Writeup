@@ -15,8 +15,8 @@
     <td align="center"><a href="HTB/Machines/Love/README.md"><img src="https://www.hackthebox.eu/storage/avatars/c00774d8d806b82c709c596937a92d14.png" width="100px;" alt=""/><br /><sub><b>Love</b></sub></a></td>
     <td align="center"><a href="HTB/Machines/Spectra/README.md"><img src="https://www.hackthebox.eu/storage/avatars/e679d95b5553a6927d1dc4ffe0885ea8.png" width="100px;" alt=""/><br /><sub><b>Spectra</b></sub></a></td>
     <td align="center"><a href="HTB/Machines/Knife/README.md"><img src="https://www.hackthebox.eu/storage/avatars/110fe6608793064cf171080150ebd0dc.png" width="100px;" alt=""/><br /><sub><b>Knife</b></sub></a></td>
-    <td align="center"><a href="HTB/Machines/knife/README.md"><img src="https://www.hackthebox.eu/storage/avatars/70ea3357a2d090af11a0953ec8717e90.png" width="100px;" alt=""/><br /><sub><b>Cap</b></sub></a></td>
-    <td align="center"><a href="HTB/Machines/Cap/README.md"><img src="https://www.hackthebox.eu/storage/avatars/c35b01fe78880b6dfe56096b022de2ab.png" width="100px;" alt=""/><br /><sub><b>Scriptkiddie</b></sub></a></td>
+    <td align="center"><a href="HTB/Machines/Cap/README.md"><img src="https://www.hackthebox.eu/storage/avatars/70ea3357a2d090af11a0953ec8717e90.png" width="100px;" alt=""/><br /><sub><b>Cap</b></sub></a></td>
+    <td align="center"><a href="HTB/Machines/Scriptkiddie/README.md"><img src="https://www.hackthebox.eu/storage/avatars/c35b01fe78880b6dfe56096b022de2ab.png" width="100px;" alt=""/><br /><sub><b>Scriptkiddie</b></sub></a></td>
   </tr>
   <tr>
     <td align="center"><a href="HTB/Machines/Explore/README.md"><img src="https://www.hackthebox.eu/storage/avatars/2c3df5ec98bea78159400b5b4f6474ab.png" width="100px;" alt=""/><br /><sub><b>Explore</b></sub></a></td>
@@ -26,7 +26,6 @@
   </tr>
   <tr>
     <td align="center"><a href="HTB/Machines/TheNotebook/README.md"><img src="https://www.hackthebox.eu/storage/avatars/7295ea27df8a46144ed5f939b96ffaae.png" width="100px;" alt=""/><br /><sub><b>The Notebook</b></sub></a></td>
-    <td align="center"><a href="HTB/Machines/Schooled/README.md"><img src="https://www.hackthebox.eu/storage/avatars/3e2a599fda2f510f3a5f2146fae928ee.png" width="100px;" alt=""/><br /><sub><b>Schooled</b></sub></a></td>
     <td align="center"><a href="HTB/Machines/Tenet/README.md"><img src="https://www.hackthebox.eu/storage/avatars/6bd8b01a1b84e16a5ee2e53d070339fd.png" width="100px;" alt=""/><br /><sub>
 	<b>Tenet</b></sub></a></td>
     <td align="center"><a href="HTB/Machines/Pit/README.md"><img src="https://www.hackthebox.eu/storage/avatars/d3b377fc7c3813603ba69d6bedff37a8.png" width="100px;" alt=""/><br /><sub>

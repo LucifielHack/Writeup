@@ -1,4 +1,4 @@
-# The Notebook Hackthebox Walkthrough
+# The Notebook Hackthebox Writeup
 
 ## All Ports Scan
 

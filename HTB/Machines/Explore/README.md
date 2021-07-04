@@ -1,4 +1,4 @@
-# Explore Hackthebox Walkthrough
+# Explore Hackthebox Writeup
 
 Here is the Walkthrough of the First android box of HackTheBox
 

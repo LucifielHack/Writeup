@@ -1,4 +1,4 @@
-# Spectra HTB Walkthrough
+# Spectra HTB Writeup
 
 ## All Ports Scan
 

@@ -1,4 +1,4 @@
-# OpenAdmin Hackthebox Walkthrough
+# OpenAdmin Hackthebox Writeup
 
 ## All Ports Scan
 
