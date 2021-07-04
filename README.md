@@ -46,3 +46,4 @@
 	<td align="center"><a href="TryHackMe/Daily Bugle/README.md"><img src="https://tryhackme-images.s3.amazonaws.com/room-icons/5a1494ff275a366be8418a9bf831847c.png" width="100px;" alt=""/><br /><sub><b>Daily Bugle</b></sub></a></td>
 </tr>
  </table>
+ .
