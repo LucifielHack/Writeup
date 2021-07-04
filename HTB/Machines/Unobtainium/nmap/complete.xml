@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Wed Jun 30 16:12:14 2021 as: nmap -T4 -sT -sV -sC -A -vv -p22,80,2379,2380,8443,10249,10250,10256,31337 -oA nmap/complete 10.10.10.235 -->
+<nmaprun scanner="nmap" args="nmap -T4 -sT -sV -sC -A -vv -p22,80,2379,2380,8443,10249,10250,10256,31337 -oA nmap/complete 10.10.10.235" start="1625091134" startstr="Wed Jun 30 16:12:14 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="9" services="22,80,2379-2380,8443,10249-10250,10256,31337"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1625091135"/>
+<taskend task="NSE" time="1625091135"/>
+<taskbegin task="NSE" time="1625091135"/>
+<taskend task="NSE" time="1625091135"/>
+<taskbegin task="NSE" time="1625091135"/>
+<taskend task="NSE" time="1625091135"/>
+<taskbegin task="Ping Scan" time="1625091135"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.10.235" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskend task="Ping Scan" time="1625091135" extrainfo="1 total hosts"/>
+<taskbegin task="Connect Scan" time="1625091135"/>
+<taskend task="Connect Scan" time="1625091135" extrainfo="9 total ports"/>
+<taskbegin task="Service scan" time="1625091135"/>
+<taskend task="Service scan" time="1625091249" extrainfo="9 services on 1 host"/>
+<taskbegin task="Traceroute" time="1625091255"/>
+<taskend task="Traceroute" time="1625091255"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1625091255"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1625091255"/>
+<taskbegin task="NSE" time="1625091255"/>
+<taskend task="NSE" time="1625091267"/>
+<taskbegin task="NSE" time="1625091267"/>
+<taskend task="NSE" time="1625091270"/>
+<taskbegin task="NSE" time="1625091270"/>
+<taskend task="NSE" time="1625091270"/>
+<host starttime="1625091135" endtime="1625091270"><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.10.235" addrtype="ipv4"/>
+<hostnames>
+<hostname name="unobtainium.htb" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="8.2p1 Ubuntu 4ubuntu0.2" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:8.2p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  3072 e4:bf:68:42:e5:74:4b:06:58:78:bd:ed:1e:6a:df:66 (RSA)&#xa;ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDqQoIYywQexchBNxvkmbTD5YrmVL0Av7gqOZOkIH/NlON3YEFKE+CjzkWQSpygHj5kXW/HqtpWhBcnnZwTkDNQiGG3kYrUAVBBOUYCFw0IrX+NMvsiYckoqyR6OMvgGflgqxBTykWj5tkBHlV1Uz2x5pwyjR061PyMgmcn4ATNdf6pizjeQySuiVH5rve7tvsCIK7LSxKeR+mfP4G6HdK4UMHb3SNeqBhgNTjfuew+ec22z1/lb7pzsMLZtNijWS1kZpkXldzSWD2XWZYFiLM/OgG74PT8Pbf7RDbRpgWFfBHbaKCc/2p7pgjW7g9OZf/k2Woe6iyac/AoqyEUbh/X1QJkGMZqlFjR399hLejC6QyuCajBK2D6wehgTzxWYJdHjezm/iPFPhAtum9VF4xoPtXUO3RHAh0JXC8UUvhZEPEHjhfj6ns9Ruh9JqypQMSK9a8M8apCqeKs+LA2/Bslj2MKvO3JREWOlx77D9u38VwXtsG2bMfr7wYu/NdSBA8=&#xa;  256 bd:88:a1:d9:19:a0:12:35:ca:d3:fa:63:76:48:dc:65 (ECDSA)&#xa;ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBFWJvi96HVMqkKOySFUH2Ct8q1P9RcMdo85OflQab5qmcuhb+7m/9V60biP3ka+vED7gwOasVRzarVF9fsHOFxk=&#xa;  256 cf:c4:19:25:19:fa:6e:2e:b7:a4:aa:7d:c3:f1:3d:9b (ED25519)&#xa;ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJiTwECN1nK0xyLk3SQMUVcfuqvlVJmdMUGkr6hnoZ9b"><table>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABgQDqQoIYywQexchBNxvkmbTD5YrmVL0Av7gqOZOkIH/NlON3YEFKE+CjzkWQSpygHj5kXW/HqtpWhBcnnZwTkDNQiGG3kYrUAVBBOUYCFw0IrX+NMvsiYckoqyR6OMvgGflgqxBTykWj5tkBHlV1Uz2x5pwyjR061PyMgmcn4ATNdf6pizjeQySuiVH5rve7tvsCIK7LSxKeR+mfP4G6HdK4UMHb3SNeqBhgNTjfuew+ec22z1/lb7pzsMLZtNijWS1kZpkXldzSWD2XWZYFiLM/OgG74PT8Pbf7RDbRpgWFfBHbaKCc/2p7pgjW7g9OZf/k2Woe6iyac/AoqyEUbh/X1QJkGMZqlFjR399hLejC6QyuCajBK2D6wehgTzxWYJdHjezm/iPFPhAtum9VF4xoPtXUO3RHAh0JXC8UUvhZEPEHjhfj6ns9Ruh9JqypQMSK9a8M8apCqeKs+LA2/Bslj2MKvO3JREWOlx77D9u38VwXtsG2bMfr7wYu/NdSBA8=</elem>
+<elem key="bits">3072</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="fingerprint">e4bf6842e5744b065878bded1e6adf66</elem>
+</table>
+<table>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBFWJvi96HVMqkKOySFUH2Ct8q1P9RcMdo85OflQab5qmcuhb+7m/9V60biP3ka+vED7gwOasVRzarVF9fsHOFxk=</elem>
+<elem key="bits">256</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="fingerprint">bd88a1d919a01235cad3fa637648dc65</elem>
+</table>
+<table>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIJiTwECN1nK0xyLk3SQMUVcfuqvlVJmdMUGkr6hnoZ9b</elem>
+<elem key="bits">256</elem>
+<elem key="type">ssh-ed25519</elem>
+<elem key="fingerprint">cfc4192519fa6e2eb7a4aa7dc3f13d9b</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" version="2.4.41" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.41</cpe></service><script id="http-methods" output="&#xa;  Supported Methods: POST OPTIONS HEAD GET"><table key="Supported Methods">
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+<elem>HEAD</elem>
+<elem>GET</elem>
+</table>
+</script><script id="http-server-header" output="Apache/2.4.41 (Ubuntu)"><elem>Apache/2.4.41 (Ubuntu)</elem>
+</script><script id="http-title" output="Unobtainium"><elem key="title">Unobtainium</elem>
+</script></port>
+<port protocol="tcp" portid="2379"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="etcd-client" tunnel="ssl" method="table" conf="3"/><script id="ssl-cert" output="Subject: commonName=unobtainium&#xa;Subject Alternative Name: DNS:localhost, DNS:unobtainium, IP Address:10.10.10.3, IP Address:127.0.0.1, IP Address:0:0:0:0:0:0:0:1&#xa;Issuer: commonName=etcd-ca&#xa;Public Key type: rsa&#xa;Public Key bits: 2048&#xa;Signature Algorithm: sha256WithRSAEncryption&#xa;Not valid before: 2021-01-17T07:10:30&#xa;Not valid after:  2022-01-17T07:10:30&#xa;MD5:   bf49 c77d 7900 011e 603c 26f5 9620 af5d&#xa;SHA-1: 3ad8 d245 3655 0459 3cae 0454 0992 b85d c7ca 7531&#xa;-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIDPzCCAiegAwIBAgIIF2LniMomOIIwDQYJKoZIhvcNAQELBQAwEjEQMA4GA1UE&#xa;AxMHZXRjZC1jYTAeFw0yMTAxMTcwNzEwMzBaFw0yMjAxMTcwNzEwMzBaMBYxFDAS&#xa;BgNVBAMTC3Vub2J0YWluaXVtMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC&#xa;AQEA7B9EZw+4RWERLnRsyNPs3Ju8RNSa868ZAkVcB5IWMpLj6lPzOUU0lDgZOiQQ&#xa;q7x5lPB6GL8vwMubVlFzZb4lUD/kt1w7u0TMLGMd5I7ZF13ZqnCQw+cLrqRL3hl+&#xa;Rwtg6gQMwIUy1ZQ62ojfDQcIPPn2Z1FtzhsQ1avHnUSdwE5xfI7sP1ptg+fSzJuy&#xa;fz181DkEd52iv163GL2HbcaeZRAIIJ1+51haUhA7hZ1ExJ1uk+HUG8GForudzqHd&#xa;OPQQJw/srK/ZPIRPDzFY9I0FUtV2l4ArtoQ3v6Gnyi1mTmtLNeSZi1mQXoRX1+RL&#xa;4g9xt4VQKqm0z4ChQNNnKPj6LQIDAQABo4GUMIGRMA4GA1UdDwEB/wQEAwIFoDAd&#xa;BgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwHwYDVR0jBBgwFoAUsBcJTW6z&#xa;tOAyGyZVLRT0mjItXikwPwYDVR0RBDgwNoIJbG9jYWxob3N0ggt1bm9idGFpbml1&#xa;bYcECgoKA4cEfwAAAYcQAAAAAAAAAAAAAAAAAAAAATANBgkqhkiG9w0BAQsFAAOC&#xa;AQEAB3ZKDHqbV8fDfE2QXjOSiOoNv6g4XR4fo1EA3m9s2E+Exhqqy4Ep/Jm9bsZE&#xa;4g+gXSChX1seTU+9BQs4kVPSnFQvUibuYuNI30xzY3DipgG8MbDM/S2U65PcHD+4&#xa;s4eLic+bbKpORnKhFKWyNDSCcm9CzKMn16fiyWoppfq7cfb7hG0d9/UrDWmhSW0O&#xa;goR/ApYlshpdQweZrygD4aZfdQqOrK331D1XcmExPrk1GgMWxmZe4QU5uufWd2VE&#xa;CAz/yI3wD7XZ1RTQOj9ysKoJRjcPaTyWFkG1deeF7oREGwnklu3l6k7XdiC/yJ8e&#xa;XWd+EfjNgnbpZ7gBqeEpjWwJGw==&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;"><table key="subject">
+<elem key="commonName">unobtainium</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">etcd-ca</elem>
+</table>
+<table key="pubkey">
+<elem key="type">rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="modulus">EC1F44670FB84561112E746CC8D3ECDC9BBC44D49AF3AF1902455C0792163292E3EA53F33945349438193A2410ABBC7994F07A18BF2FC0CB9B56517365BE25503FE4B75C3BBB44CC2C631DE48ED9175DD9AA7090C3E70BAEA44BDE197E470B60EA040CC08532D5943ADA88DF0D07083CF9F667516DCE1B10D5ABC79D449DC04E717C8EEC3F5A6D83E7D2CC9BB27F3D7CD43904779DA2BF5EB718BD876DC69E651008209D7EE7585A52103B859D44C49D6E93E1D41BC185A2BB9DCEA1DD38F410270FECACAFD93C844F0F3158F48D0552D57697802BB68437BFA1A7CA2D664E6B4B35E4998B59905E8457D7E44BE20F71B785502AA9B4CF80A140D36728F8FA2D</elem>
+<elem key="exponent">65537</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Key Usage</elem>
+<elem key="value">Digital Signature, Key Encipherment</elem>
+<elem key="critical">true</elem>
+</table>
+<table>
+<elem key="name">X509v3 Extended Key Usage</elem>
+<elem key="value">TLS Web Server Authentication, TLS Web Client Authentication</elem>
+</table>
+<table>
+<elem key="name">X509v3 Authority Key Identifier</elem>
+<elem key="value">keyid:B0:17:09:4D:6E:B3:B4:E0:32:1B:26:55:2D:14:F4:9A:32:2D:5E:29&#xa;</elem>
+</table>
+<table>
+<elem key="name">X509v3 Subject Alternative Name</elem>
+<elem key="value">DNS:localhost, DNS:unobtainium, IP Address:10.10.10.3, IP Address:127.0.0.1, IP Address:0:0:0:0:0:0:0:1</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2021-01-17T07:10:30</elem>
+<elem key="notAfter">2022-01-17T07:10:30</elem>
+</table>
+<elem key="md5">bf49c77d7900011e603c26f59620af5d</elem>
+<elem key="sha1">3ad8d245365504593cae04540992b85dc7ca7531</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIDPzCCAiegAwIBAgIIF2LniMomOIIwDQYJKoZIhvcNAQELBQAwEjEQMA4GA1UE&#xa;AxMHZXRjZC1jYTAeFw0yMTAxMTcwNzEwMzBaFw0yMjAxMTcwNzEwMzBaMBYxFDAS&#xa;BgNVBAMTC3Vub2J0YWluaXVtMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC&#xa;AQEA7B9EZw+4RWERLnRsyNPs3Ju8RNSa868ZAkVcB5IWMpLj6lPzOUU0lDgZOiQQ&#xa;q7x5lPB6GL8vwMubVlFzZb4lUD/kt1w7u0TMLGMd5I7ZF13ZqnCQw+cLrqRL3hl+&#xa;Rwtg6gQMwIUy1ZQ62ojfDQcIPPn2Z1FtzhsQ1avHnUSdwE5xfI7sP1ptg+fSzJuy&#xa;fz181DkEd52iv163GL2HbcaeZRAIIJ1+51haUhA7hZ1ExJ1uk+HUG8GForudzqHd&#xa;OPQQJw/srK/ZPIRPDzFY9I0FUtV2l4ArtoQ3v6Gnyi1mTmtLNeSZi1mQXoRX1+RL&#xa;4g9xt4VQKqm0z4ChQNNnKPj6LQIDAQABo4GUMIGRMA4GA1UdDwEB/wQEAwIFoDAd&#xa;BgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwHwYDVR0jBBgwFoAUsBcJTW6z&#xa;tOAyGyZVLRT0mjItXikwPwYDVR0RBDgwNoIJbG9jYWxob3N0ggt1bm9idGFpbml1&#xa;bYcECgoKA4cEfwAAAYcQAAAAAAAAAAAAAAAAAAAAATANBgkqhkiG9w0BAQsFAAOC&#xa;AQEAB3ZKDHqbV8fDfE2QXjOSiOoNv6g4XR4fo1EA3m9s2E+Exhqqy4Ep/Jm9bsZE&#xa;4g+gXSChX1seTU+9BQs4kVPSnFQvUibuYuNI30xzY3DipgG8MbDM/S2U65PcHD+4&#xa;s4eLic+bbKpORnKhFKWyNDSCcm9CzKMn16fiyWoppfq7cfb7hG0d9/UrDWmhSW0O&#xa;goR/ApYlshpdQweZrygD4aZfdQqOrK331D1XcmExPrk1GgMWxmZe4QU5uufWd2VE&#xa;CAz/yI3wD7XZ1RTQOj9ysKoJRjcPaTyWFkG1deeF7oREGwnklu3l6k7XdiC/yJ8e&#xa;XWd+EfjNgnbpZ7gBqeEpjWwJGw==&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="ssl-date" output="TLS randomness does not represent time"></script><script id="tls-alpn" output="&#xa;  h2"><elem>h2</elem>
+</script><script id="tls-nextprotoneg" output="&#xa;  h2"><elem>h2</elem>
+</script></port>
+<port protocol="tcp" portid="2380"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="etcd-server" tunnel="ssl" method="table" conf="3"/><script id="ssl-cert" output="Subject: commonName=unobtainium&#xa;Subject Alternative Name: DNS:localhost, DNS:unobtainium, IP Address:10.10.10.3, IP Address:127.0.0.1, IP Address:0:0:0:0:0:0:0:1&#xa;Issuer: commonName=etcd-ca&#xa;Public Key type: rsa&#xa;Public Key bits: 2048&#xa;Signature Algorithm: sha256WithRSAEncryption&#xa;Not valid before: 2021-01-17T07:10:30&#xa;Not valid after:  2022-01-17T07:10:30&#xa;MD5:   f920 4337 4559 aad2 fd5c 41bf 0b9c 827c&#xa;SHA-1: 729f 3481 33c5 eaba 5922 1b34 8bb8 e052 a107 a521&#xa;-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIDPzCCAiegAwIBAgIIL67aFgTRTcgwDQYJKoZIhvcNAQELBQAwEjEQMA4GA1UE&#xa;AxMHZXRjZC1jYTAeFw0yMTAxMTcwNzEwMzBaFw0yMjAxMTcwNzEwMzBaMBYxFDAS&#xa;BgNVBAMTC3Vub2J0YWluaXVtMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC&#xa;AQEA7gewfPGikwZGQEM/hJSb/regA7VV1k9wLcymY8Ugur01i1/fP0y+fCnC60NS&#xa;gVSe2km07t185lE4DsdfN+RxT9UeSV54B+G/Tode9OtLncK8EOA4Sly9wQ/5fI3p&#xa;XGhrVsZiNNkcyrpg1aMWWQUo770R34Mg4IAVLHwHz2Y7ArEnNki3YMVUutwx2Uyu&#xa;4YUeBTtPwX/1mtYYwEScN1q15rkUmu46zf2Lvlfhmgg6gQ2dD5M5gKGeHJyli4Z0&#xa;0yHR3yDd3ggUlwJp6hUo8JbDNMkfz8rs95IDc7vS7+Q2VT6jCgDACeYRntlLIMYi&#xa;PfTxgzfT+wDjM7Oeljcf/7vB2QIDAQABo4GUMIGRMA4GA1UdDwEB/wQEAwIFoDAd&#xa;BgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwHwYDVR0jBBgwFoAUsBcJTW6z&#xa;tOAyGyZVLRT0mjItXikwPwYDVR0RBDgwNoIJbG9jYWxob3N0ggt1bm9idGFpbml1&#xa;bYcECgoKA4cEfwAAAYcQAAAAAAAAAAAAAAAAAAAAATANBgkqhkiG9w0BAQsFAAOC&#xa;AQEAa0J6bA2x4v3azqTnrZVrxGSfyOK4qS/KsFZmbqoMp5NCiMNKICIQYwK3HiIp&#xa;5r+kELj3Jqqrn/OhJx+0+/WqjX0HHB1wC6I2qndRzU0IVTeJ3ysEzYQ1La1e7PHF&#xa;z7J3g3Nh+aQjE4WU+i/R3DZE+s+NuEopAzue6bjXCAhlumgdFdCO1pDuf/A1g/DT&#xa;yVOKvJGhNcm1DdQb7av/fCRYrShv2yrJQY3IjNgN3Jp4LlL2R70U/yhcNcbq18MH&#xa;B2dI/y4atdMo3BTQoHWrXsAv36+LROqWmgc/JR1jw4IoOTxtAQoqkpX4ul+89hoC&#xa;7AneKLB4w6xu2cP1r7uDOqYTKA==&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;"><table key="subject">
+<elem key="commonName">unobtainium</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">etcd-ca</elem>
+</table>
+<table key="pubkey">
+<elem key="type">rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="modulus">EE07B07CF1A293064640433F84949BFEB7A003B555D64F702DCCA663C520BABD358B5FDF3F4CBE7C29C2EB435281549EDA49B4EEDD7CE651380EC75F37E4714FD51E495E7807E1BF4E875EF4EB4B9DC2BC10E0384A5CBDC10FF97C8DE95C686B56C66234D91CCABA60D5A316590528EFBD11DF8320E080152C7C07CF663B02B1273648B760C554BADC31D94CAEE1851E053B4FC17FF59AD618C0449C375AB5E6B9149AEE3ACDFD8BBE57E19A083A810D9D0F933980A19E1C9CA58B8674D321D1DF20DDDE0814970269EA1528F096C334C91FCFCAECF7920373BBD2EFE436553EA30A00C009E6119ED94B20C6223DF4F18337D3FB00E333B39E96371FFFBBC1D9</elem>
+<elem key="exponent">65537</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Key Usage</elem>
+<elem key="value">Digital Signature, Key Encipherment</elem>
+<elem key="critical">true</elem>
+</table>
+<table>
+<elem key="name">X509v3 Extended Key Usage</elem>
+<elem key="value">TLS Web Server Authentication, TLS Web Client Authentication</elem>
+</table>
+<table>
+<elem key="name">X509v3 Authority Key Identifier</elem>
+<elem key="value">keyid:B0:17:09:4D:6E:B3:B4:E0:32:1B:26:55:2D:14:F4:9A:32:2D:5E:29&#xa;</elem>
+</table>
+<table>
+<elem key="name">X509v3 Subject Alternative Name</elem>
+<elem key="value">DNS:localhost, DNS:unobtainium, IP Address:10.10.10.3, IP Address:127.0.0.1, IP Address:0:0:0:0:0:0:0:1</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2021-01-17T07:10:30</elem>
+<elem key="notAfter">2022-01-17T07:10:30</elem>
+</table>
+<elem key="md5">f92043374559aad2fd5c41bf0b9c827c</elem>
+<elem key="sha1">729f348133c5eaba59221b348bb8e052a107a521</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIDPzCCAiegAwIBAgIIL67aFgTRTcgwDQYJKoZIhvcNAQELBQAwEjEQMA4GA1UE&#xa;AxMHZXRjZC1jYTAeFw0yMTAxMTcwNzEwMzBaFw0yMjAxMTcwNzEwMzBaMBYxFDAS&#xa;BgNVBAMTC3Vub2J0YWluaXVtMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC&#xa;AQEA7gewfPGikwZGQEM/hJSb/regA7VV1k9wLcymY8Ugur01i1/fP0y+fCnC60NS&#xa;gVSe2km07t185lE4DsdfN+RxT9UeSV54B+G/Tode9OtLncK8EOA4Sly9wQ/5fI3p&#xa;XGhrVsZiNNkcyrpg1aMWWQUo770R34Mg4IAVLHwHz2Y7ArEnNki3YMVUutwx2Uyu&#xa;4YUeBTtPwX/1mtYYwEScN1q15rkUmu46zf2Lvlfhmgg6gQ2dD5M5gKGeHJyli4Z0&#xa;0yHR3yDd3ggUlwJp6hUo8JbDNMkfz8rs95IDc7vS7+Q2VT6jCgDACeYRntlLIMYi&#xa;PfTxgzfT+wDjM7Oeljcf/7vB2QIDAQABo4GUMIGRMA4GA1UdDwEB/wQEAwIFoDAd&#xa;BgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwHwYDVR0jBBgwFoAUsBcJTW6z&#xa;tOAyGyZVLRT0mjItXikwPwYDVR0RBDgwNoIJbG9jYWxob3N0ggt1bm9idGFpbml1&#xa;bYcECgoKA4cEfwAAAYcQAAAAAAAAAAAAAAAAAAAAATANBgkqhkiG9w0BAQsFAAOC&#xa;AQEAa0J6bA2x4v3azqTnrZVrxGSfyOK4qS/KsFZmbqoMp5NCiMNKICIQYwK3HiIp&#xa;5r+kELj3Jqqrn/OhJx+0+/WqjX0HHB1wC6I2qndRzU0IVTeJ3ysEzYQ1La1e7PHF&#xa;z7J3g3Nh+aQjE4WU+i/R3DZE+s+NuEopAzue6bjXCAhlumgdFdCO1pDuf/A1g/DT&#xa;yVOKvJGhNcm1DdQb7av/fCRYrShv2yrJQY3IjNgN3Jp4LlL2R70U/yhcNcbq18MH&#xa;B2dI/y4atdMo3BTQoHWrXsAv36+LROqWmgc/JR1jw4IoOTxtAQoqkpX4ul+89hoC&#xa;7AneKLB4w6xu2cP1r7uDOqYTKA==&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="ssl-date" output="TLS randomness does not represent time"></script><script id="tls-alpn" output="&#xa;  h2"><elem>h2</elem>
+</script><script id="tls-nextprotoneg" output="&#xa;  h2"><elem>h2</elem>
+</script></port>
+<port protocol="tcp" portid="8443"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="https-alt" servicefp="SF-Port8443-TCP:V=7.91%T=SSL%I=7%D=6/30%Time=60DCEC4D%P=x86_64-pc-linux-gnu%r(GetRequest,1FF,&quot;HTTP/1\.0\x20403\x20Forbidden\r\nCache-Control:\x20no-cache,\x20private\r\nContent-Type:\x20application/json\r\nX-Content-Type-Options:\x20nosniff\r\nX-Kubernetes-Pf-Flowschema-Uid:\x203082aa7f-e4b1-444a-a726-829587cd9e39\r\nX-Kubernetes-Pf-Prioritylevel-Uid:\x20c4131e14-5fda-4a46-8349-09ccbed9efdd\r\nDate:\x20Wed,\x2030\x20Jun\x202021\x2010:42:29\x20GMT\r\nContent-Length:\x20185\r\n\r\n{\&quot;kind\&quot;:\&quot;Status\&quot;,\&quot;apiVersion\&quot;:\&quot;v1\&quot;,\&quot;metadata\&quot;:{},\&quot;status\&quot;:\&quot;Failure\&quot;,\&quot;message\&quot;:\&quot;forbidden:\x20User\x20\\\&quot;system:anonymous\\\&quot;\x20cannot\x20get\x20path\x20\\\&quot;/\\\&quot;\&quot;,\&quot;reason\&quot;:\&quot;Forbidden\&quot;,\&quot;details\&quot;:{},\&quot;code\&quot;:403}\n&quot;)%r(HTTPOptions,203,&quot;HTTP/1\.0\x20403\x20Forbidden\r\nCache-Control:\x20no-cache,\x20private\r\nContent-Type:\x20application/json\r\nX-Content-Type-Options:\x20nosniff\r\nX-Kubernetes-Pf-Flowschema-Uid:\x203082aa7f-e4b1-444a-a726-829587cd9e39\r\nX-Kubernetes-Pf-Prioritylevel-Uid:\x20c4131e14-5fda-4a46-8349-09ccbed9efdd\r\nDate:\x20Wed,\x2030\x20Jun\x202021\x2010:42:30\x20GMT\r\nContent-Length:\x20189\r\n\r\n{\&quot;kind\&quot;:\&quot;Status\&quot;,\&quot;apiVersion\&quot;:\&quot;v1\&quot;,\&quot;metadata\&quot;:{},\&quot;status\&quot;:\&quot;Failure\&quot;,\&quot;message\&quot;:\&quot;forbidden:\x20User\x20\\\&quot;system:anonymous\\\&quot;\x20cannot\x20options\x20path\x20\\\&quot;/\\\&quot;\&quot;,\&quot;reason\&quot;:\&quot;Forbidden\&quot;,\&quot;details\&quot;:{},\&quot;code\&quot;:403}\n&quot;)%r(FourOhFourRequest,21A,&quot;HTTP/1\.0\x20403\x20Forbidden\r\nCache-Control:\x20no-cache,\x20private\r\nContent-Type:\x20application/json\r\nX-Content-Type-Options:\x20nosniff\r\nX-Kubernetes-Pf-Flowschema-Uid:\x203082aa7f-e4b1-444a-a726-829587cd9e39\r\nX-Kubernetes-Pf-Prioritylevel-Uid:\x20c4131e14-5fda-4a46-8349-09ccbed9efdd\r\nDate:\x20Wed,\x2030\x20Jun\x202021\x2010:42:31\x20GMT\r\nContent-Length:\x20212\r\n\r\n{\&quot;kind\&quot;:\&quot;Status\&quot;,\&quot;apiVersion\&quot;:\&quot;v1\&quot;,\&quot;metadata\&quot;:{},\&quot;status\&quot;:\&quot;Failure\&quot;,\&quot;message\&quot;:\&quot;forbidden:\x20User\x20\\\&quot;system:anonymous\\\&quot;\x20cannot\x20get\x20path\x20\\\&quot;/nice\x20ports,/Trinity\.txt\.bak\\\&quot;\&quot;,\&quot;reason\&quot;:\&quot;Forbidden\&quot;,\&quot;details\&quot;:{},\&quot;code\&quot;:403}\n&quot;)%r(GenericLines,67,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request&quot;);" tunnel="ssl" method="probed" conf="10"/><script id="fingerprint-strings" output="&#xa;  FourOhFourRequest: &#xa;    HTTP/1.0 403 Forbidden&#xa;    Cache-Control: no-cache, private&#xa;    Content-Type: application/json&#xa;    X-Content-Type-Options: nosniff&#xa;    X-Kubernetes-Pf-Flowschema-Uid: 3082aa7f-e4b1-444a-a726-829587cd9e39&#xa;    X-Kubernetes-Pf-Prioritylevel-Uid: c4131e14-5fda-4a46-8349-09ccbed9efdd&#xa;    Date: Wed, 30 Jun 2021 10:42:31 GMT&#xa;    Content-Length: 212&#xa;    {&quot;kind&quot;:&quot;Status&quot;,&quot;apiVersion&quot;:&quot;v1&quot;,&quot;metadata&quot;:{},&quot;status&quot;:&quot;Failure&quot;,&quot;message&quot;:&quot;forbidden: User &quot;system:anonymous&quot; cannot get path &quot;/nice ports,/Trinity.txt.bak&quot;&quot;,&quot;reason&quot;:&quot;Forbidden&quot;,&quot;details&quot;:{},&quot;code&quot;:403}&#xa;  GenericLines: &#xa;    HTTP/1.1 400 Bad Request&#xa;    Content-Type: text/plain; charset=utf-8&#xa;    Connection: close&#xa;    Request&#xa;  GetRequest: &#xa;    HTTP/1.0 403 Forbidden&#xa;    Cache-Control: no-cache, private&#xa;    Content-Type: application/json&#xa;    X-Content-Type-Options: nosniff&#xa;    X-Kubernetes-Pf-Flowschema-Uid: 3082aa7f-e4b1-444a-a726-829587cd9e39&#xa;    X-Kubernetes-Pf-Prioritylevel-Uid: c4131e14-5fda-4a46-8349-09ccbed9efdd&#xa;    Date: Wed, 30 Jun 2021 10:42:29 GMT&#xa;    Content-Length: 185&#xa;    {&quot;kind&quot;:&quot;Status&quot;,&quot;apiVersion&quot;:&quot;v1&quot;,&quot;metadata&quot;:{},&quot;status&quot;:&quot;Failure&quot;,&quot;message&quot;:&quot;forbidden: User &quot;system:anonymous&quot; cannot get path &quot;/&quot;&quot;,&quot;reason&quot;:&quot;Forbidden&quot;,&quot;details&quot;:{},&quot;code&quot;:403}&#xa;  HTTPOptions: &#xa;    HTTP/1.0 403 Forbidden&#xa;    Cache-Control: no-cache, private&#xa;    Content-Type: application/json&#xa;    X-Content-Type-Options: nosniff&#xa;    X-Kubernetes-Pf-Flowschema-Uid: 3082aa7f-e4b1-444a-a726-829587cd9e39&#xa;    X-Kubernetes-Pf-Prioritylevel-Uid: c4131e14-5fda-4a46-8349-09ccbed9efdd&#xa;    Date: Wed, 30 Jun 2021 10:42:30 GMT&#xa;    Content-Length: 189&#xa;    {&quot;kind&quot;:&quot;Status&quot;,&quot;apiVersion&quot;:&quot;v1&quot;,&quot;metadata&quot;:{},&quot;status&quot;:&quot;Failure&quot;,&quot;message&quot;:&quot;forbidden: User &quot;system:anonymous&quot; cannot options path &quot;/&quot;&quot;,&quot;reason&quot;:&quot;Forbidden&quot;,&quot;details&quot;:{},&quot;code&quot;:403}"><elem key="FourOhFourRequest">&#xa;    HTTP/1.0 403 Forbidden&#xa;    Cache-Control: no-cache, private&#xa;    Content-Type: application/json&#xa;    X-Content-Type-Options: nosniff&#xa;    X-Kubernetes-Pf-Flowschema-Uid: 3082aa7f-e4b1-444a-a726-829587cd9e39&#xa;    X-Kubernetes-Pf-Prioritylevel-Uid: c4131e14-5fda-4a46-8349-09ccbed9efdd&#xa;    Date: Wed, 30 Jun 2021 10:42:31 GMT&#xa;    Content-Length: 212&#xa;    {&quot;kind&quot;:&quot;Status&quot;,&quot;apiVersion&quot;:&quot;v1&quot;,&quot;metadata&quot;:{},&quot;status&quot;:&quot;Failure&quot;,&quot;message&quot;:&quot;forbidden: User &quot;system:anonymous&quot; cannot get path &quot;/nice ports,/Trinity.txt.bak&quot;&quot;,&quot;reason&quot;:&quot;Forbidden&quot;,&quot;details&quot;:{},&quot;code&quot;:403}</elem>
+<elem key="GenericLines">&#xa;    HTTP/1.1 400 Bad Request&#xa;    Content-Type: text/plain; charset=utf-8&#xa;    Connection: close&#xa;    Request</elem>
+<elem key="GetRequest">&#xa;    HTTP/1.0 403 Forbidden&#xa;    Cache-Control: no-cache, private&#xa;    Content-Type: application/json&#xa;    X-Content-Type-Options: nosniff&#xa;    X-Kubernetes-Pf-Flowschema-Uid: 3082aa7f-e4b1-444a-a726-829587cd9e39&#xa;    X-Kubernetes-Pf-Prioritylevel-Uid: c4131e14-5fda-4a46-8349-09ccbed9efdd&#xa;    Date: Wed, 30 Jun 2021 10:42:29 GMT&#xa;    Content-Length: 185&#xa;    {&quot;kind&quot;:&quot;Status&quot;,&quot;apiVersion&quot;:&quot;v1&quot;,&quot;metadata&quot;:{},&quot;status&quot;:&quot;Failure&quot;,&quot;message&quot;:&quot;forbidden: User &quot;system:anonymous&quot; cannot get path &quot;/&quot;&quot;,&quot;reason&quot;:&quot;Forbidden&quot;,&quot;details&quot;:{},&quot;code&quot;:403}</elem>
+<elem key="HTTPOptions">&#xa;    HTTP/1.0 403 Forbidden&#xa;    Cache-Control: no-cache, private&#xa;    Content-Type: application/json&#xa;    X-Content-Type-Options: nosniff&#xa;    X-Kubernetes-Pf-Flowschema-Uid: 3082aa7f-e4b1-444a-a726-829587cd9e39&#xa;    X-Kubernetes-Pf-Prioritylevel-Uid: c4131e14-5fda-4a46-8349-09ccbed9efdd&#xa;    Date: Wed, 30 Jun 2021 10:42:30 GMT&#xa;    Content-Length: 189&#xa;    {&quot;kind&quot;:&quot;Status&quot;,&quot;apiVersion&quot;:&quot;v1&quot;,&quot;metadata&quot;:{},&quot;status&quot;:&quot;Failure&quot;,&quot;message&quot;:&quot;forbidden: User &quot;system:anonymous&quot; cannot options path &quot;/&quot;&quot;,&quot;reason&quot;:&quot;Forbidden&quot;,&quot;details&quot;:{},&quot;code&quot;:403}</elem>
+</script><script id="http-title" output="Site doesn&apos;t have a title (application/json)."></script><script id="ssl-cert" output="Subject: commonName=minikube/organizationName=system:masters&#xa;Subject Alternative Name: DNS:minikubeCA, DNS:control-plane.minikube.internal, DNS:kubernetes.default.svc.cluster.local, DNS:kubernetes.default.svc, DNS:kubernetes.default, DNS:kubernetes, DNS:localhost, IP Address:10.10.10.235, IP Address:10.96.0.1, IP Address:127.0.0.1, IP Address:10.0.0.1&#xa;Issuer: commonName=minikubeCA&#xa;Public Key type: rsa&#xa;Public Key bits: 2048&#xa;Signature Algorithm: sha256WithRSAEncryption&#xa;Not valid before: 2021-06-29T05:03:54&#xa;Not valid after:  2022-06-30T05:03:54&#xa;MD5:   1cb2 9d1c 3897 a821 434d efd0 2dfd 7933&#xa;SHA-1: 2f6f e20e 47c6 0a49 f66a 526c 5e51 1292 a781 b4a3&#xa;-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIDuTCCAqGgAwIBAgIBAjANBgkqhkiG9w0BAQsFADAVMRMwEQYDVQQDEwptaW5p&#xa;a3ViZUNBMB4XDTIxMDYyOTA1MDM1NFoXDTIyMDYzMDA1MDM1NFowLDEXMBUGA1UE&#xa;ChMOc3lzdGVtOm1hc3RlcnMxETAPBgNVBAMTCG1pbmlrdWJlMIIBIjANBgkqhkiG&#xa;9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsU1JXKWnmR3YwB34qWc4PZzB4wcNqmdV/w/K&#xa;ZJ0zfp7pS4nYB0G3A5mFe+kEsyzBcQWkz8dH/J9g4+X+oTHN6aS+w2jaSDuE1lHj&#xa;eVeYDeo68VljyjQL3B4vgdEH2QJYCbYas4JXagnP/wrZ/GDHdPrDOFHxe4YSlmDq&#xa;bCJPt/F97KVKWcbGTI7m5TnulStKtSCLC99L/XOVUHojKbWeiuF18UQ+vys7G7eG&#xa;9/sV066CmQux3GoCmnwDE3PI9PqgIQf1+b8+jRuX49OKohD2R/3cpdBqO6K/WE1t&#xa;sjXCKjciTYtOHVDmuJAO8hDpObf1g0G/MSFEKi7EEoaknkjC0wIDAQABo4H8MIH5&#xa;MA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIw&#xa;DAYDVR0TAQH/BAIwADCBuQYDVR0RBIGxMIGuggptaW5pa3ViZUNBgh9jb250cm9s&#xa;LXBsYW5lLm1pbmlrdWJlLmludGVybmFsgiRrdWJlcm5ldGVzLmRlZmF1bHQuc3Zj&#xa;LmNsdXN0ZXIubG9jYWyCFmt1YmVybmV0ZXMuZGVmYXVsdC5zdmOCEmt1YmVybmV0&#xa;ZXMuZGVmYXVsdIIKa3ViZXJuZXRlc4IJbG9jYWxob3N0hwQKCgrrhwQKYAABhwR/&#xa;AAABhwQKAAABMA0GCSqGSIb3DQEBCwUAA4IBAQAsIk6BqIPj1QlgRKeXmPpg1zZm&#xa;HGw+P6QqAfmIsDpayqfKwFw4JxaGxqyUzLDwngPaUG4R5jGtBcETJNVg9iznPZ6B&#xa;wJiTMjpWrINEtejKPogwufD3C8/iLWXrVY6pprkk86eGSoZS0meKqLX3JuLKnuc9&#xa;Rntd2ax8LVwD8Bbe7ZW/UkMDNLG/ZHQ/IcgarSIoIzv7Ysz1ZpVkIzRstZDVjE5r&#xa;PWE0z7vR7bCXSq2lI60vst0Td8I7vH5Ia4BYf/PP/HoCNyoQihAncMW4o7UPi1mR&#xa;zsbz8Ya2vvMiGmm1i99KWo+SrhIG6EWpvKTDUFCdoBYZkzJ8R2+7JuCoogM1&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;"><table key="subject">
+<elem key="commonName">minikube</elem>
+<elem key="organizationName">system:masters</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">minikubeCA</elem>
+</table>
+<table key="pubkey">
+<elem key="type">rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="modulus">B14D495CA5A7991DD8C01DF8A967383D9CC1E3070DAA6755FF0FCA649D337E9EE94B89D80741B70399857BE904B32CC17105A4CFC747FC9F60E3E5FEA131CDE9A4BEC368DA483B84D651E37957980DEA3AF15963CA340BDC1E2F81D107D9025809B61AB382576A09CFFF0AD9FC60C774FAC33851F17B86129660EA6C224FB7F17DECA54A59C6C64C8EE6E539EE952B4AB5208B0BDF4BFD7395507A2329B59E8AE175F1443EBF2B3B1BB786F7FB15D3AE82990BB1DC6A029A7C031373C8F4FAA02107F5F9BF3E8D1B97E3D38AA210F647FDDCA5D06A3BA2BF584D6DB235C22A37224D8B4E1D50E6B8900EF210E939B7F58341BF3121442A2EC41286A49E48C2D3</elem>
+<elem key="exponent">65537</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Key Usage</elem>
+<elem key="value">Digital Signature, Key Encipherment</elem>
+<elem key="critical">true</elem>
+</table>
+<table>
+<elem key="name">X509v3 Extended Key Usage</elem>
+<elem key="value">TLS Web Server Authentication, TLS Web Client Authentication</elem>
+</table>
+<table>
+<elem key="name">X509v3 Basic Constraints</elem>
+<elem key="value">CA:FALSE</elem>
+<elem key="critical">true</elem>
+</table>
+<table>
+<elem key="name">X509v3 Subject Alternative Name</elem>
+<elem key="value">DNS:minikubeCA, DNS:control-plane.minikube.internal, DNS:kubernetes.default.svc.cluster.local, DNS:kubernetes.default.svc, DNS:kubernetes.default, DNS:kubernetes, DNS:localhost, IP Address:10.10.10.235, IP Address:10.96.0.1, IP Address:127.0.0.1, IP Address:10.0.0.1</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2021-06-29T05:03:54</elem>
+<elem key="notAfter">2022-06-30T05:03:54</elem>
+</table>
+<elem key="md5">1cb29d1c3897a821434defd02dfd7933</elem>
+<elem key="sha1">2f6fe20e47c60a49f66a526c5e511292a781b4a3</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIDuTCCAqGgAwIBAgIBAjANBgkqhkiG9w0BAQsFADAVMRMwEQYDVQQDEwptaW5p&#xa;a3ViZUNBMB4XDTIxMDYyOTA1MDM1NFoXDTIyMDYzMDA1MDM1NFowLDEXMBUGA1UE&#xa;ChMOc3lzdGVtOm1hc3RlcnMxETAPBgNVBAMTCG1pbmlrdWJlMIIBIjANBgkqhkiG&#xa;9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsU1JXKWnmR3YwB34qWc4PZzB4wcNqmdV/w/K&#xa;ZJ0zfp7pS4nYB0G3A5mFe+kEsyzBcQWkz8dH/J9g4+X+oTHN6aS+w2jaSDuE1lHj&#xa;eVeYDeo68VljyjQL3B4vgdEH2QJYCbYas4JXagnP/wrZ/GDHdPrDOFHxe4YSlmDq&#xa;bCJPt/F97KVKWcbGTI7m5TnulStKtSCLC99L/XOVUHojKbWeiuF18UQ+vys7G7eG&#xa;9/sV066CmQux3GoCmnwDE3PI9PqgIQf1+b8+jRuX49OKohD2R/3cpdBqO6K/WE1t&#xa;sjXCKjciTYtOHVDmuJAO8hDpObf1g0G/MSFEKi7EEoaknkjC0wIDAQABo4H8MIH5&#xa;MA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIw&#xa;DAYDVR0TAQH/BAIwADCBuQYDVR0RBIGxMIGuggptaW5pa3ViZUNBgh9jb250cm9s&#xa;LXBsYW5lLm1pbmlrdWJlLmludGVybmFsgiRrdWJlcm5ldGVzLmRlZmF1bHQuc3Zj&#xa;LmNsdXN0ZXIubG9jYWyCFmt1YmVybmV0ZXMuZGVmYXVsdC5zdmOCEmt1YmVybmV0&#xa;ZXMuZGVmYXVsdIIKa3ViZXJuZXRlc4IJbG9jYWxob3N0hwQKCgrrhwQKYAABhwR/&#xa;AAABhwQKAAABMA0GCSqGSIb3DQEBCwUAA4IBAQAsIk6BqIPj1QlgRKeXmPpg1zZm&#xa;HGw+P6QqAfmIsDpayqfKwFw4JxaGxqyUzLDwngPaUG4R5jGtBcETJNVg9iznPZ6B&#xa;wJiTMjpWrINEtejKPogwufD3C8/iLWXrVY6pprkk86eGSoZS0meKqLX3JuLKnuc9&#xa;Rntd2ax8LVwD8Bbe7ZW/UkMDNLG/ZHQ/IcgarSIoIzv7Ysz1ZpVkIzRstZDVjE5r&#xa;PWE0z7vR7bCXSq2lI60vst0Td8I7vH5Ia4BYf/PP/HoCNyoQihAncMW4o7UPi1mR&#xa;zsbz8Ya2vvMiGmm1i99KWo+SrhIG6EWpvKTDUFCdoBYZkzJ8R2+7JuCoogM1&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="ssl-date" output="TLS randomness does not represent time"></script><script id="tls-alpn" output="&#xa;  h2&#xa;  http/1.1"><elem>h2</elem>
+<elem>http/1.1</elem>
+</script></port>
+<port protocol="tcp" portid="10249"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Golang net/http server" extrainfo="Go-IPFS json-rpc or InfluxDB API" method="probed" conf="10"><cpe>cpe:/a:protocol_labs:go-ipfs</cpe></service><script id="http-title" output="Site doesn&apos;t have a title (text/plain; charset=utf-8)."></script></port>
+<port protocol="tcp" portid="10250"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Golang net/http server" extrainfo="Go-IPFS json-rpc or InfluxDB API" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:protocol_labs:go-ipfs</cpe></service><script id="http-title" output="Site doesn&apos;t have a title (text/plain; charset=utf-8)."></script><script id="ssl-cert" output="Subject: commonName=unobtainium@1610865428&#xa;Subject Alternative Name: DNS:unobtainium&#xa;Issuer: commonName=unobtainium-ca@1610865428&#xa;Public Key type: rsa&#xa;Public Key bits: 2048&#xa;Signature Algorithm: sha256WithRSAEncryption&#xa;Not valid before: 2021-01-17T05:37:08&#xa;Not valid after:  2022-01-17T05:37:08&#xa;MD5:   fa5f 3f5c 5f93 30d2 5105 2aad 71a4 96f6&#xa;SHA-1: d67f 5a73 83b7 2393 1612 e88a 12c5 6bf1 9552 36b3&#xa;-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIDLjCCAhagAwIBAgIBAjANBgkqhkiG9w0BAQsFADAkMSIwIAYDVQQDDBl1bm9i&#xa;dGFpbml1bS1jYUAxNjEwODY1NDI4MB4XDTIxMDExNzA1MzcwOFoXDTIyMDExNzA1&#xa;MzcwOFowITEfMB0GA1UEAwwWdW5vYnRhaW5pdW1AMTYxMDg2NTQyODCCASIwDQYJ&#xa;KoZIhvcNAQEBBQADggEPADCCAQoCggEBAKLp7yOzZ9fFc0QY6U4NWcENvqmPv4k0&#xa;IoSgagI15waulf/H1TKaehSOKRYHS3mEeRuhN4a1gheNclZL4jCtF2DeDx9R9EpX&#xa;c6b6GeEwWddnWWCuavOu4k94onyRfxiXYdu/dC7CSXjzr8RRsBpq5bU6ZGChMYDb&#xa;+jTaWCzpQoQn1en4uxg0tmN6stwyhKqYA+zfkeE4Rtqo7T6pZnBb9rHMpPtL1VWd&#xa;Degq47wJeOpzNcWNvPI6/3/w/FLCVkYDa1X+oTITEPIYoFeelNSlC8AIZ+T4j4B4&#xa;o8vMzMm1lLULZzbBCcZ8oCx8WEMIb3vO0dy3ktWrZwO2MQCIHT03+FcCAwEAAaNu&#xa;MGwwDgYDVR0PAQH/BAQDAgWgMBMGA1UdJQQMMAoGCCsGAQUFBwMBMAwGA1UdEwEB&#xa;/wQCMAAwHwYDVR0jBBgwFoAUARx4OH5btad3F83FBn3HpSt62DswFgYDVR0RBA8w&#xa;DYILdW5vYnRhaW5pdW0wDQYJKoZIhvcNAQELBQADggEBAKxmllh9QumypVZ4eicO&#xa;aOKTDGJsNZa3T53Y6xlbsTN4I3GS79Gdr79tLQSnffjW7xuCqmyYC8UNn1ym1FbN&#xa;L8KDx8Djfrl9tQ/g5esmENA6+uOFVnTs5znQnaF+QoQ93asLXYHjmcFxUANwD8HG&#xa;D5dU9ngPemSNWL671SMRnCQtzulu6W+Y+RMT7PA/DU1nxXPsycfkDZBEjiffRyzE&#xa;7SkeAkqqFnIV7z1yM6kudw3bYRkxhOJ8iL73u0BwfESq086kOkyRBVw2Z7uisWxm&#xa;U8nCksR4q11LT+GpHS2cTrGzM5HYOAiDVR0inhYWwtHRmKShvm7THEoS3aIGyQUP&#xa;Bz8=&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;"><table key="subject">
+<elem key="commonName">unobtainium@1610865428</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">unobtainium-ca@1610865428</elem>
+</table>
+<table key="pubkey">
+<elem key="type">rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="modulus">A2E9EF23B367D7C5734418E94E0D59C10DBEA98FBF89342284A06A0235E706AE95FFC7D5329A7A148E2916074B7984791BA13786B582178D72564BE230AD1760DE0F1F51F44A5773A6FA19E13059D7675960AE6AF3AEE24F78A27C917F189761DBBF742EC24978F3AFC451B01A6AE5B53A6460A13180DBFA34DA582CE9428427D5E9F8BB1834B6637AB2DC3284AA9803ECDF91E13846DAA8ED3EA966705BF6B1CCA4FB4BD5559D0DE82AE3BC0978EA7335C58DBCF23AFF7FF0FC52C25646036B55FEA1321310F218A0579E94D4A50BC00867E4F88F8078A3CBCCCCC9B594B50B6736C109C67CA02C7C5843086F7BCED1DCB792D5AB6703B63100881D3D37F857</elem>
+<elem key="exponent">65537</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Key Usage</elem>
+<elem key="value">Digital Signature, Key Encipherment</elem>
+<elem key="critical">true</elem>
+</table>
+<table>
+<elem key="name">X509v3 Extended Key Usage</elem>
+<elem key="value">TLS Web Server Authentication</elem>
+</table>
+<table>
+<elem key="name">X509v3 Basic Constraints</elem>
+<elem key="value">CA:FALSE</elem>
+<elem key="critical">true</elem>
+</table>
+<table>
+<elem key="name">X509v3 Authority Key Identifier</elem>
+<elem key="value">keyid:01:1C:78:38:7E:5B:B5:A7:77:17:CD:C5:06:7D:C7:A5:2B:7A:D8:3B&#xa;</elem>
+</table>
+<table>
+<elem key="name">X509v3 Subject Alternative Name</elem>
+<elem key="value">DNS:unobtainium</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2021-01-17T05:37:08</elem>
+<elem key="notAfter">2022-01-17T05:37:08</elem>
+</table>
+<elem key="md5">fa5f3f5c5f9330d251052aad71a496f6</elem>
+<elem key="sha1">d67f5a7383b723931612e88a12c56bf1955236b3</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIDLjCCAhagAwIBAgIBAjANBgkqhkiG9w0BAQsFADAkMSIwIAYDVQQDDBl1bm9i&#xa;dGFpbml1bS1jYUAxNjEwODY1NDI4MB4XDTIxMDExNzA1MzcwOFoXDTIyMDExNzA1&#xa;MzcwOFowITEfMB0GA1UEAwwWdW5vYnRhaW5pdW1AMTYxMDg2NTQyODCCASIwDQYJ&#xa;KoZIhvcNAQEBBQADggEPADCCAQoCggEBAKLp7yOzZ9fFc0QY6U4NWcENvqmPv4k0&#xa;IoSgagI15waulf/H1TKaehSOKRYHS3mEeRuhN4a1gheNclZL4jCtF2DeDx9R9EpX&#xa;c6b6GeEwWddnWWCuavOu4k94onyRfxiXYdu/dC7CSXjzr8RRsBpq5bU6ZGChMYDb&#xa;+jTaWCzpQoQn1en4uxg0tmN6stwyhKqYA+zfkeE4Rtqo7T6pZnBb9rHMpPtL1VWd&#xa;Degq47wJeOpzNcWNvPI6/3/w/FLCVkYDa1X+oTITEPIYoFeelNSlC8AIZ+T4j4B4&#xa;o8vMzMm1lLULZzbBCcZ8oCx8WEMIb3vO0dy3ktWrZwO2MQCIHT03+FcCAwEAAaNu&#xa;MGwwDgYDVR0PAQH/BAQDAgWgMBMGA1UdJQQMMAoGCCsGAQUFBwMBMAwGA1UdEwEB&#xa;/wQCMAAwHwYDVR0jBBgwFoAUARx4OH5btad3F83FBn3HpSt62DswFgYDVR0RBA8w&#xa;DYILdW5vYnRhaW5pdW0wDQYJKoZIhvcNAQELBQADggEBAKxmllh9QumypVZ4eicO&#xa;aOKTDGJsNZa3T53Y6xlbsTN4I3GS79Gdr79tLQSnffjW7xuCqmyYC8UNn1ym1FbN&#xa;L8KDx8Djfrl9tQ/g5esmENA6+uOFVnTs5znQnaF+QoQ93asLXYHjmcFxUANwD8HG&#xa;D5dU9ngPemSNWL671SMRnCQtzulu6W+Y+RMT7PA/DU1nxXPsycfkDZBEjiffRyzE&#xa;7SkeAkqqFnIV7z1yM6kudw3bYRkxhOJ8iL73u0BwfESq086kOkyRBVw2Z7uisWxm&#xa;U8nCksR4q11LT+GpHS2cTrGzM5HYOAiDVR0inhYWwtHRmKShvm7THEoS3aIGyQUP&#xa;Bz8=&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="ssl-date" output="TLS randomness does not represent time"></script><script id="tls-alpn" output="&#xa;  h2&#xa;  http/1.1"><elem>h2</elem>
+<elem>http/1.1</elem>
+</script></port>
+<port protocol="tcp" portid="10256"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Golang net/http server" extrainfo="Go-IPFS json-rpc or InfluxDB API" method="probed" conf="10"><cpe>cpe:/a:protocol_labs:go-ipfs</cpe></service><script id="http-title" output="Site doesn&apos;t have a title (text/plain; charset=utf-8)."></script></port>
+<port protocol="tcp" portid="31337"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Node.js Express framework" method="probed" conf="10"><cpe>cpe:/a:nodejs:node.js</cpe></service><script id="http-methods" output="&#xa;  Supported Methods: GET HEAD PUT DELETE POST OPTIONS&#xa;  Potentially risky methods: PUT DELETE"><table key="Supported Methods">
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>PUT</elem>
+<elem>DELETE</elem>
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+</table>
+<table key="Potentially risky methods">
+<elem>PUT</elem>
+<elem>DELETE</elem>
+</table>
+</script><script id="http-title" output="Site doesn&apos;t have a title (application/json; charset=utf-8)."></script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="udp" portid="38205"/>
+<osmatch name="Linux 4.15 - 5.6" accuracy="95" line="67241">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="5.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:5</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 5.3 - 5.4" accuracy="95" line="68143">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="5.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:5</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32" accuracy="95" line="55656">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:2.6.32</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 5.0 - 5.3" accuracy="95" line="68085">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="5.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:5</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.1" accuracy="95" line="62920">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:3.1</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2" accuracy="95" line="64667">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:3.2</cpe></osclass>
+</osmatch>
+<osmatch name="AXIS 210A or 211 Network Camera (Linux 2.6.17)" accuracy="94" line="61818">
+<osclass type="webcam" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:2.6.17</cpe></osclass>
+<osclass type="webcam" vendor="AXIS" osfamily="embedded" accuracy="94"><cpe>cpe:/h:axis:210a_network_camera</cpe><cpe>cpe:/h:axis:211_network_camera</cpe></osclass>
+</osmatch>
+<osmatch name="ASUS RT-N56U WAP (Linux 3.4)" accuracy="93" line="8401">
+<osclass type="WAP" vendor="Asus" osfamily="embedded" accuracy="93"><cpe>cpe:/h:asus:rt-n56u</cpe></osclass>
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3.4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16" accuracy="93" line="64174">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 5.0" accuracy="93" line="68045">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="5.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:5.0</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="SCAN(V=7.91%E=4%D=6/30%OT=22%CT=%CU=38205%PV=Y%DS=2%DC=T%G=N%TM=60DCECC6%P=x86_64-pc-linux-gnu)&#xa;SEQ(SP=105%GCD=1%ISR=10E%TI=Z%CI=Z%II=I%TS=A)&#xa;OPS(O1=M54DST11NW7%O2=M54DST11NW7%O3=M54DNNT11NW7%O4=M54DST11NW7%O5=M54DST11NW7%O6=M54DST11)&#xa;WIN(W1=FE88%W2=FE88%W3=FE88%W4=FE88%W5=FE88%W6=FE88)&#xa;ECN(R=Y%DF=Y%T=40%W=FAF0%O=M54DNNSNW7%CC=Y%Q=)&#xa;T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)&#xa;T2(R=N)&#xa;T3(R=N)&#xa;T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)&#xa;T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)&#xa;T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)&#xa;T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)&#xa;U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)&#xa;IE(R=Y%DFI=N%T=40%CD=S)&#xa;"/>
+</os>
+<uptime seconds="2390629" lastboot="Thu Jun  3 00:10:41 2021"/>
+<distance value="2"/>
+<tcpsequence index="261" difficulty="Good luck!" values="51FDEEC9,CE7536C4,6239CD6F,81A22BC7,BC27C407,1C24D0D5"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="8E7DD7E1,8E7DD845,8E7DD8AB,8E7DD90E,8E7DD972,8E7DD9D6"/>
+<trace proto="icmp">
+<hop ttl="1" ipaddr="10.10.14.1" rtt="159.64"/>
+<hop ttl="2" ipaddr="10.10.10.235" rtt="159.78" host="unobtainium.htb"/>
+</trace>
+<times srtt="220068" rttvar="40607" to="382496"/>
+</host>
+<taskbegin task="NSE" time="1625091270"/>
+<taskend task="NSE" time="1625091270"/>
+<taskbegin task="NSE" time="1625091270"/>
+<taskend task="NSE" time="1625091270"/>
+<taskbegin task="NSE" time="1625091270"/>
+<taskend task="NSE" time="1625091270"/>
+<runstats><finished time="1625091270" timestr="Wed Jun 30 16:14:30 2021" summary="Nmap done at Wed Jun 30 16:14:30 2021; 1 IP address (1 host up) scanned in 136.27 seconds" elapsed="136.27" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

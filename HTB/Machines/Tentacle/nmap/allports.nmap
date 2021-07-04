@@ -1,0 +1,15 @@
+# Nmap 7.91 scan initiated Thu Jun 10 20:20:54 2021 as: nmap -sT -vv -p- -oA nmap/allports 10.10.10.224
+Nmap scan report for 10.10.10.224
+Host is up, received admin-prohibited ttl 63 (0.68s latency).
+Scanned at 2021-06-10 20:20:54 EDT for 1745s
+Not shown: 65530 filtered ports
+Reason: 63770 no-responses and 1760 host-unreaches
+PORT     STATE  SERVICE      REASON
+22/tcp   open   ssh          syn-ack
+53/tcp   open   domain       syn-ack
+88/tcp   open   kerberos-sec syn-ack
+3128/tcp open   squid-http   syn-ack
+9090/tcp closed zeus-admin   conn-refused
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Thu Jun 10 20:49:59 2021 -- 1 IP address (1 host up) scanned in 1745.87 seconds

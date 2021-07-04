@@ -1,0 +1,21 @@
+# Nmap 7.91 scan initiated Wed Jun 23 16:57:14 2021 as: nmap -T4 -sT -vv -p- -oA nmap/allports 10.10.97.195
+Warning: 10.10.97.195 giving up on port because retransmission cap hit (6).
+Nmap scan report for 10.10.97.195
+Host is up, received echo-reply ttl 63 (0.15s latency).
+Scanned at 2021-06-23 16:57:14 EDT for 972s
+Not shown: 65525 closed ports
+Reason: 65525 conn-refused
+PORT      STATE    SERVICE REASON
+22/tcp    open     ssh     syn-ack
+80/tcp    open     http    syn-ack
+1469/tcp  filtered aal-lm  no-response
+21248/tcp filtered unknown no-response
+30148/tcp filtered unknown no-response
+30171/tcp filtered unknown no-response
+34926/tcp filtered unknown no-response
+37086/tcp filtered unknown no-response
+60833/tcp filtered unknown no-response
+62058/tcp filtered unknown no-response
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Wed Jun 23 17:13:26 2021 -- 1 IP address (1 host up) scanned in 971.46 seconds

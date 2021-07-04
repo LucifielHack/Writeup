@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Tue Jun 15 21:11:41 2021 as: nmap -T4 -vv -sT -p- -oA nmap/allports 192.168.1.51 -->
+<nmaprun scanner="nmap" args="nmap -T4 -vv -sT -p- -oA nmap/allports 192.168.1.51" start="1623805901" startstr="Tue Jun 15 21:11:41 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="ARP Ping Scan" time="1623805901"/>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.51" addrtype="ipv4"/>
+<address addr="08:00:27:3C:22:7A" addrtype="mac" vendor="Oracle VirtualBox virtual NIC"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskend task="ARP Ping Scan" time="1623805901" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1623805901"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1623805901"/>
+<taskbegin task="Connect Scan" time="1623805901"/>
+<taskend task="Connect Scan" time="1623805903" extrainfo="65535 total ports"/>
+<host starttime="1623805901" endtime="1623805903"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.51" addrtype="ipv4"/>
+<address addr="08:00:27:3C:22:7A" addrtype="mac" vendor="Oracle VirtualBox virtual NIC"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65530">
+<extrareasons reason="conn-refused" count="65530"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="5000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="upnp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8081"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="blackice-icecap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9001"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tor-orport" method="table" conf="3"/></port>
+</ports>
+<times srtt="176" rttvar="75" to="100000"/>
+</host>
+<runstats><finished time="1623805903" timestr="Tue Jun 15 21:11:43 2021" summary="Nmap done at Tue Jun 15 21:11:43 2021; 1 IP address (1 host up) scanned in 2.09 seconds" elapsed="2.09" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

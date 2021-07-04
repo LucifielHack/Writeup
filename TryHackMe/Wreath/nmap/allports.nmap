@@ -1,0 +1,20 @@
+# Nmap 7.91 scan initiated Tue Jun 29 11:32:10 2021 as: nmap -T4 -sT -vv -p- -oA nmap/allports 10.200.97.200
+Increasing send delay for 10.200.97.200 from 0 to 5 due to 83 out of 206 dropped probes since last increase.
+Increasing send delay for 10.200.97.200 from 5 to 10 due to 11 out of 12 dropped probes since last increase.
+Nmap scan report for 10.200.97.200
+Host is up, received echo-reply ttl 63 (0.15s latency).
+Scanned at 2021-06-29 11:32:10 -06 for 802s
+Not shown: 65527 filtered ports
+Reason: 65108 no-responses and 419 host-unreaches
+PORT      STATE  SERVICE          REASON
+22/tcp    open   ssh              syn-ack
+80/tcp    open   http             syn-ack
+443/tcp   open   https            syn-ack
+1700/tcp  closed mps-raft         conn-refused
+1701/tcp  closed l2f              conn-refused
+9090/tcp  closed zeus-admin       conn-refused
+10000/tcp open   snet-sensor-mgmt syn-ack
+17133/tcp closed unknown          conn-refused
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Tue Jun 29 11:45:32 2021 -- 1 IP address (1 host up) scanned in 801.83 seconds

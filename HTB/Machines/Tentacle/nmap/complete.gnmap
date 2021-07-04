@@ -1,0 +1,5 @@
+# Nmap 7.91 scan initiated Thu Jun 10 20:53:00 2021 as: nmap -vv -sT -sC -sV -A -p22,53,88,3128,9090 -oA nmap/complete 10.10.10.224
+# Ports scanned: TCP(5;22,53,88,3128,9090) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.10.224 ()	Status: Up
+Host: 10.10.10.224 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.0 (protocol 2.0)/, 53/open/tcp//domain//ISC BIND 9.11.20 (RedHat Enterprise Linux 8)/, 88/open/tcp//kerberos-sec//MIT Kerberos (server time: 2021-06-10 15:26:50Z)/, 3128/open/tcp//http-proxy//Squid http proxy 4.11/, 9090/closed/tcp//zeus-admin///	Seq Index: 261	IP ID Seq: All zeros
+# Nmap done at Thu Jun 10 20:53:37 2021 -- 1 IP address (1 host up) scanned in 37.60 seconds

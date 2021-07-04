@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Mon Jun 14 14:40:11 2021 as: nmap -Pn -sT -vv -p- -oA nmap/test.no-ip.htb -&#45;dns-servers 10.129.158.196 10.10.14.7 -->
+<nmaprun scanner="nmap" args="nmap -Pn -sT -vv -p- -oA nmap/test.no-ip.htb -&#45;dns-servers 10.129.158.196 10.10.14.7" start="1623696011" startstr="Mon Jun 14 14:40:11 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="Connect Scan" time="1623696011"/>
+<taskprogress task="Connect Scan" time="1623696051" percent="0.31"/>
+<taskprogress task="Connect Scan" time="1623696081" percent="0.53"/>
+<taskprogress task="Connect Scan" time="1623696111" percent="0.76"/>
+<taskprogress task="Connect Scan" time="1623696141" percent="0.99"/>
+<taskprogress task="Connect Scan" time="1623696171" percent="1.21" remaining="13030" etc="1623709200"/>
+<taskprogress task="Connect Scan" time="1623696784" percent="5.88" remaining="12368" etc="1623709152"/>
+<taskprogress task="Connect Scan" time="1623697435" percent="10.84" remaining="11711" etc="1623709146"/>
+<taskprogress task="Connect Scan" time="1623698291" percent="14.81" remaining="13117" etc="1623711407"/>
+<taskprogress task="Connect Scan" time="1623698684" percent="17.80" remaining="12345" etc="1623711028"/>
+<taskprogress task="Connect Scan" time="1623699134" percent="21.23" remaining="11591" etc="1623710725"/>

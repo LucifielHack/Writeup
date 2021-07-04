@@ -1,0 +1,5 @@
+# Nmap 7.91 scan initiated Sat Jun 12 13:14:26 2021 as: nmap -sT -sV -sC -A -vv -p22,80 -oA nmap/complete 10.10.10.233
+# Ports scanned: TCP(2;22,80) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.10.233 ()	Status: Up
+Host: 10.10.10.233 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.4 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.6 ((CentOS) PHP|5.4.16)/	Seq Index: 258	IP ID Seq: All zeros
+# Nmap done at Sat Jun 12 13:14:51 2021 -- 1 IP address (1 host up) scanned in 24.94 seconds

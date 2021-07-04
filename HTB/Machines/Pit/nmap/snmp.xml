@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Thu Jun 10 16:26:43 2021 as: nmap -sU -sV -p161 -vv -oA nmap/snmp 10.10.10.241 -->
+<nmaprun scanner="nmap" args="nmap -sU -sV -p161 -vv -oA nmap/snmp 10.10.10.241" start="1623356803" startstr="Thu Jun 10 16:26:43 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="udp" protocol="udp" numservices="1" services="161"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="Ping Scan" time="1623356803"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.10.241" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskend task="Ping Scan" time="1623356803" extrainfo="1 total hosts"/>
+<taskbegin task="UDP Scan" time="1623356803"/>
+<taskend task="UDP Scan" time="1623356807" extrainfo="1 total ports"/>
+<taskbegin task="Service scan" time="1623356807"/>
+<taskend task="Service scan" time="1623356807" extrainfo="1 service on 1 host"/>
+<taskbegin task="NSE" time="1623356807"/>
+<taskend task="NSE" time="1623356808"/>
+<taskbegin task="NSE" time="1623356808"/>
+<taskend task="NSE" time="1623356808"/>
+<host starttime="1623356803" endtime="1623356808"><status state="up" reason="admin-prohibited" reason_ttl="63"/>
+<address addr="10.10.10.241" addrtype="ipv4"/>
+<hostnames>
+<hostname name="pit.htb" type="PTR"/>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="open" reason="udp-response" reason_ttl="0"/><service name="snmp" product="SNMPv1 server; net-snmp SNMPv3 server" extrainfo="public" hostname="pit.htb" method="probed" conf="10"/></port>
+</ports>
+<times srtt="356321" rttvar="356321" to="1781605"/>
+</host>
+<runstats><finished time="1623356808" timestr="Thu Jun 10 16:26:48 2021" summary="Nmap done at Thu Jun 10 16:26:48 2021; 1 IP address (1 host up) scanned in 5.44 seconds" elapsed="5.44" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,28 @@
+# Nmap 7.91 scan initiated Mon Jun 21 17:30:18 2021 as: nmap -T4 -sT -vv -p- -oA nmap/allports 10.10.245.127
+Increasing send delay for 10.10.245.127 from 5 to 10 due to 11 out of 20 dropped probes since last increase.
+Warning: 10.10.245.127 giving up on port because retransmission cap hit (6).
+Nmap scan report for 10.10.245.127
+Host is up, received echo-reply ttl 63 (0.15s latency).
+Scanned at 2021-06-21 17:30:19 EDT for 895s
+Not shown: 65519 closed ports
+Reason: 65519 conn-refused
+PORT      STATE    SERVICE      REASON
+21/tcp    open     ftp          syn-ack
+22/tcp    open     ssh          syn-ack
+139/tcp   open     netbios-ssn  syn-ack
+445/tcp   open     microsoft-ds syn-ack
+3128/tcp  open     squid-http   syn-ack
+3333/tcp  open     dec-notes    syn-ack
+5181/tcp  filtered unknown      no-response
+7079/tcp  filtered unknown      no-response
+25018/tcp filtered unknown      no-response
+30786/tcp filtered unknown      no-response
+43854/tcp filtered unknown      no-response
+50436/tcp filtered unknown      no-response
+59411/tcp filtered unknown      no-response
+59418/tcp filtered unknown      no-response
+62947/tcp filtered unknown      no-response
+64685/tcp filtered unknown      no-response
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Jun 21 17:45:14 2021 -- 1 IP address (1 host up) scanned in 895.99 seconds

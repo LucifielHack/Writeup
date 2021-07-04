@@ -1,0 +1,13 @@
+# Nmap 7.91 scan initiated Mon Jun 28 09:13:37 2021 as: nmap -T4 -sT -vv -p- -oA nmap/allports 10.10.10.238
+Increasing send delay for 10.10.10.238 from 5 to 10 due to 11 out of 25 dropped probes since last increase.
+Nmap scan report for 10.10.10.238
+Host is up, received echo-reply ttl 63 (0.16s latency).
+Scanned at 2021-06-28 09:13:37 EDT for 841s
+Not shown: 65533 closed ports
+Reason: 65533 conn-refused
+PORT   STATE SERVICE REASON
+22/tcp open  ssh     syn-ack
+80/tcp open  http    syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Jun 28 09:27:38 2021 -- 1 IP address (1 host up) scanned in 840.54 seconds

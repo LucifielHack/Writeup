@@ -1,0 +1,74 @@
+# Nmap 7.91 scan initiated Wed Jun 30 15:48:11 2021 as: nmap -T4 -sT -vv -p- -oA nmap/allports 10.10.10.235
+Warning: 10.10.10.235 giving up on port because retransmission cap hit (6).
+Nmap scan report for 10.10.10.235
+Host is up, received echo-reply ttl 63 (0.16s latency).
+Scanned at 2021-06-30 15:48:11 -06 for 980s
+Not shown: 65472 closed ports
+Reason: 65472 conn-refused
+PORT      STATE    SERVICE      REASON
+22/tcp    open     ssh          syn-ack
+80/tcp    open     http         syn-ack
+1884/tcp  filtered idmaps       no-response
+2379/tcp  open     etcd-client  syn-ack
+2380/tcp  open     etcd-server  syn-ack
+2981/tcp  filtered mylxamport   no-response
+3411/tcp  filtered biolink-auth no-response
+4031/tcp  filtered suucp        no-response
+8443/tcp  open     https-alt    syn-ack
+9654/tcp  filtered unknown      no-response
+10249/tcp open     unknown      syn-ack
+10250/tcp open     unknown      syn-ack
+10256/tcp open     unknown      syn-ack
+10284/tcp filtered unknown      no-response
+12632/tcp filtered unknown      no-response
+13231/tcp filtered unknown      no-response
+13552/tcp filtered unknown      no-response
+14923/tcp filtered unknown      no-response
+15140/tcp filtered unknown      no-response
+15292/tcp filtered unknown      no-response
+16343/tcp filtered unknown      no-response
+19286/tcp filtered unknown      no-response
+19427/tcp filtered unknown      no-response
+19912/tcp filtered unknown      no-response
+20844/tcp filtered unknown      no-response
+21648/tcp filtered unknown      no-response
+22388/tcp filtered unknown      no-response
+23609/tcp filtered unknown      no-response
+24679/tcp filtered unknown      no-response
+25075/tcp filtered unknown      no-response
+26029/tcp filtered unknown      no-response
+26445/tcp filtered unknown      no-response
+27286/tcp filtered unknown      no-response
+29797/tcp filtered unknown      no-response
+31337/tcp open     Elite        syn-ack
+32260/tcp filtered unknown      no-response
+33227/tcp filtered unknown      no-response
+35148/tcp filtered unknown      no-response
+35491/tcp filtered unknown      no-response
+35999/tcp filtered unknown      no-response
+39258/tcp filtered unknown      no-response
+39703/tcp filtered unknown      no-response
+41233/tcp filtered unknown      no-response
+42290/tcp filtered unknown      no-response
+42315/tcp filtered unknown      no-response
+43785/tcp filtered unknown      no-response
+44082/tcp filtered unknown      no-response
+44118/tcp filtered unknown      no-response
+44329/tcp filtered unknown      no-response
+45670/tcp filtered unknown      no-response
+47387/tcp filtered unknown      no-response
+48800/tcp filtered unknown      no-response
+49999/tcp filtered unknown      no-response
+51005/tcp filtered unknown      no-response
+51781/tcp filtered unknown      no-response
+53056/tcp filtered unknown      no-response
+56287/tcp filtered unknown      no-response
+60314/tcp filtered unknown      no-response
+60507/tcp filtered unknown      no-response
+60690/tcp filtered unknown      no-response
+61891/tcp filtered unknown      no-response
+63892/tcp filtered unknown      no-response
+64035/tcp filtered unknown      no-response
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Wed Jun 30 16:04:31 2021 -- 1 IP address (1 host up) scanned in 979.92 seconds

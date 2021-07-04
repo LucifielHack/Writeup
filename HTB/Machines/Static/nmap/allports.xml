@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Sun Jun 20 00:37:33 2021 as: nmap -T4 -sT -vv -p- -oA nmap/allports 10.129.161.171 -->
+<nmaprun scanner="nmap" args="nmap -T4 -sT -vv -p- -oA nmap/allports 10.129.161.171" start="1624163853" startstr="Sun Jun 20 00:37:33 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="Ping Scan" time="1624163853"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.129.161.171" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskend task="Ping Scan" time="1624163853" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1624163853"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1624163853"/>
+<taskbegin task="Connect Scan" time="1624163853"/>
+<taskprogress task="Connect Scan" time="1624163884" percent="7.35" remaining="391" etc="1624164275"/>
+<taskprogress task="Connect Scan" time="1624163914" percent="28.39" remaining="154" etc="1624164068"/>
+<taskprogress task="Connect Scan" time="1624163944" percent="53.48" remaining="80" etc="1624164023"/>
+<taskend task="Connect Scan" time="1624163993" extrainfo="65535 total ports"/>
+<host starttime="1624163853" endtime="1624163993"><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.129.161.171" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="65532">
+<extrareasons reason="no-responses" count="65532"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="2222"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="EtherNetIP-1" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8080"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http-proxy" method="table" conf="3"/></port>
+</ports>
+<times srtt="143620" rttvar="833" to="146952"/>
+</host>
+<runstats><finished time="1624163993" timestr="Sun Jun 20 00:39:53 2021" summary="Nmap done at Sun Jun 20 00:39:53 2021; 1 IP address (1 host up) scanned in 140.08 seconds" elapsed="140.08" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

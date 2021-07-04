@@ -1,0 +1,4 @@
+# Nmap 7.91 scan initiated Sat Jun 12 16:05:48 2021 as: nmap -T4 -sT -sC -sV -A -p445,139,443,135,3306,80,49670,5986,5000 -oA nmap/complete 10.10.10.239
+Host: 10.10.10.239 ()	Status: Up
+Host: 10.10.10.239 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.46 ((Win64) OpenSSL|1.1.1j PHP|7.3.27)/, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 443/open/tcp//ssl|http//Apache httpd 2.4.46 (OpenSSL|1.1.1j PHP|7.3.27)/, 445/open/tcp//microsoft-ds//Windows 10 Pro 19042 microsoft-ds (workgroup: WORKGROUP)/, 3306/open/tcp//mysql?///, 5000/open/tcp//http//Apache httpd 2.4.46 (OpenSSL|1.1.1j PHP|7.3.27)/, 5986/open/tcp//ssl|http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/, 49670/open/tcp//msrpc//Microsoft Windows RPC/	Seq Index: 256	IP ID Seq: Incremental
+# Nmap done at Sat Jun 12 16:07:23 2021 -- 1 IP address (1 host up) scanned in 94.86 seconds

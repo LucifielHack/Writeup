@@ -1,0 +1,5 @@
+# Nmap 7.91 scan initiated Tue Jun 29 11:46:45 2021 as: nmap -T4 -sT -sV -sC -A -vv -p22,80,443,10000 -oA nmap/complete 10.200.97.200
+# Ports scanned: TCP(4;22,80,443,10000) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.200.97.200 (thomaswreath.thm)	Status: Up
+Host: 10.200.97.200 (thomaswreath.thm)	Ports: 22/open/tcp//ssh//OpenSSH 8.0 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.37 ((centos) OpenSSL|1.1.1c)/, 443/open/tcp//ssl|http//Apache httpd 2.4.37 ((centos) OpenSSL|1.1.1c)/, 10000/open/tcp//http//MiniServ 1.890 (Webmin httpd)/	Seq Index: 261	IP ID Seq: All zeros
+# Nmap done at Tue Jun 29 11:47:40 2021 -- 1 IP address (1 host up) scanned in 55.38 seconds

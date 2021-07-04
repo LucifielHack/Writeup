@@ -1,0 +1,5 @@
+# Nmap 7.91 scan initiated Sun Jun 27 09:23:46 2021 as: nmap -T4 -sT -sV -sC -A -vv -p2222,43097,42135,59777 -oA nmap/complete 10.129.71.123
+# Ports scanned: TCP(4;2222,42135,43097,59777) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.129.71.123 ()	Status: Up
+Host: 10.129.71.123 ()	Ports: 2222/open/tcp//ssh//(protocol 2.0)/, 42135/open/tcp//http//ES File Explorer Name Response httpd/, 43097/open/tcp//unknown///, 59777/open/tcp//http//Bukkit JSONAPI httpd for Minecraft game server 3.6.0 or older/	Seq Index: 261	IP ID Seq: All zeros
+# Nmap done at Sun Jun 27 09:25:46 2021 -- 1 IP address (1 host up) scanned in 121.08 seconds

@@ -1,0 +1,21 @@
+# Nmap 7.91 scan initiated Wed Jun 23 13:18:04 2021 as: nmap -T4 -vv -sT -p- -oA nmap/allports 10.10.170.102
+Nmap scan report for 10.10.170.102
+Host is up, received echo-reply ttl 63 (0.15s latency).
+Scanned at 2021-06-23 13:18:04 EDT for 890s
+Not shown: 65524 closed ports
+Reason: 65524 conn-refused
+PORT      STATE SERVICE      REASON
+21/tcp    open  ftp          syn-ack
+22/tcp    open  ssh          syn-ack
+80/tcp    open  http         syn-ack
+111/tcp   open  rpcbind      syn-ack
+139/tcp   open  netbios-ssn  syn-ack
+445/tcp   open  microsoft-ds syn-ack
+2049/tcp  open  nfs          syn-ack
+41495/tcp open  unknown      syn-ack
+43567/tcp open  unknown      syn-ack
+43911/tcp open  unknown      syn-ack
+51227/tcp open  unknown      syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Wed Jun 23 13:32:54 2021 -- 1 IP address (1 host up) scanned in 890.64 seconds

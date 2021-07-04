@@ -1,0 +1,54 @@
+# Nmap 7.91 scan initiated Mon Jun 28 14:57:10 2021 as: nmap -T4 -sT -vv -p- -oA nmap/allports 10.10.92.85
+Warning: 10.10.92.85 giving up on port because retransmission cap hit (6).
+Nmap scan report for 10.10.92.85
+Host is up, received echo-reply ttl 63 (0.19s latency).
+Scanned at 2021-06-28 14:57:10 EDT for 702s
+Not shown: 65492 closed ports
+Reason: 65492 conn-refused
+PORT      STATE    SERVICE REASON
+21/tcp    open     ftp     syn-ack
+22/tcp    open     ssh     syn-ack
+80/tcp    open     http    syn-ack
+201/tcp   filtered at-rtmp no-response
+4946/tcp  filtered unknown no-response
+5348/tcp  filtered unknown no-response
+8094/tcp  filtered unknown no-response
+8916/tcp  filtered unknown no-response
+10660/tcp filtered unknown no-response
+12799/tcp filtered unknown no-response
+13475/tcp filtered unknown no-response
+13550/tcp filtered unknown no-response
+17282/tcp filtered unknown no-response
+18270/tcp filtered unknown no-response
+18503/tcp filtered unknown no-response
+19144/tcp filtered unknown no-response
+20006/tcp filtered unknown no-response
+21216/tcp filtered unknown no-response
+21536/tcp filtered unknown no-response
+23853/tcp filtered unknown no-response
+24819/tcp filtered unknown no-response
+25296/tcp filtered unknown no-response
+26260/tcp filtered ezproxy no-response
+27853/tcp filtered unknown no-response
+29327/tcp filtered unknown no-response
+30063/tcp filtered unknown no-response
+34023/tcp filtered unknown no-response
+39547/tcp filtered unknown no-response
+43542/tcp filtered unknown no-response
+43762/tcp filtered unknown no-response
+46669/tcp filtered unknown no-response
+47141/tcp filtered unknown no-response
+47521/tcp filtered unknown no-response
+48805/tcp filtered unknown no-response
+52759/tcp filtered unknown no-response
+53516/tcp filtered unknown no-response
+57492/tcp filtered unknown no-response
+57662/tcp filtered unknown no-response
+57727/tcp filtered unknown no-response
+59943/tcp filtered unknown no-response
+60738/tcp filtered unknown no-response
+63249/tcp filtered unknown no-response
+63887/tcp filtered unknown no-response
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Jun 28 15:08:52 2021 -- 1 IP address (1 host up) scanned in 701.57 seconds

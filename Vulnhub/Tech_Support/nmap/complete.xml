@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Wed Jun 16 16:26:28 2021 as: nmap -sT -sV -sC -A -vv -p22,80,139,445 -oA nmap/complete 192.168.1.52 -->
+<nmaprun scanner="nmap" args="nmap -sT -sV -sC -A -vv -p22,80,139,445 -oA nmap/complete 192.168.1.52" start="1623875188" startstr="Wed Jun 16 16:26:28 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="4" services="22,80,139,445"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1623875189"/>
+<taskend task="NSE" time="1623875189"/>
+<taskbegin task="NSE" time="1623875189"/>
+<taskend task="NSE" time="1623875189"/>
+<taskbegin task="NSE" time="1623875189"/>
+<taskend task="NSE" time="1623875189"/>
+<taskbegin task="ARP Ping Scan" time="1623875189"/>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.52" addrtype="ipv4"/>
+<address addr="08:00:27:DE:E0:3D" addrtype="mac" vendor="Oracle VirtualBox virtual NIC"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskend task="ARP Ping Scan" time="1623875189" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1623875190"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1623875190"/>
+<taskbegin task="Connect Scan" time="1623875190"/>
+<taskend task="Connect Scan" time="1623875190" extrainfo="4 total ports"/>
+<taskbegin task="Service scan" time="1623875190"/>
+<taskend task="Service scan" time="1623875201" extrainfo="4 services on 1 host"/>
+<taskbegin task="NSE" time="1623875202"/>
+<taskend task="NSE" time="1623875212"/>
+<taskbegin task="NSE" time="1623875212"/>
+<taskend task="NSE" time="1623875212"/>
+<taskbegin task="NSE" time="1623875212"/>
+<taskend task="NSE" time="1623875212"/>
+<host starttime="1623875189" endtime="1623875212"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.52" addrtype="ipv4"/>
+<address addr="08:00:27:DE:E0:3D" addrtype="mac" vendor="Oracle VirtualBox virtual NIC"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.2p2 Ubuntu 4ubuntu2.10" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.2p2</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  2048 10:8a:f5:72:d7:f9:7e:14:a5:c5:4f:9e:97:8b:3d:58 (RSA)&#xa;ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCtST3F95eem6k4V02TcUi7/Qtn3WvJGNfqpbE+7EVuN2etoFpihgP5LFK2i/EDbeIAiEPALjtKy3gFMEJ5QDCkglBYt3gUbYv29TQBdx+LZQ8Kjry7W+KCKXhkKJEVnkT5cN6lYZIGAkIAVXacZ/YxWjj+ruSAx07fnNLMkqsMR9VA+8w0L2BsXhzYAwCdWrfRf8CE1UEdJy6WIxRsxIYOk25o9R44KXOWT2F8pP2tFbNcvUMlUY6jGHmXgrIEwDiBHuwd3uG5cVVmxJCCSY6Ygr9Aa12nXmUE5QJE9lisYIPUn9IjbRFb2d2hZE2jQHq3WCGdAls2Bwnn7Rgc7J09&#xa;  256 7f:10:f5:57:41:3c:71:db:b5:5b:db:75:c9:76:30:5c (ECDSA)&#xa;ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBClT+wif/EERxNcaeTiny8IrQ5Qn6uEM7QxRlouee7KWHrHXomCB/Bq4gJ95Lx5sRPQJhGOZMLZyQaKPTIaILNQ=&#xa;  256 6b:4c:23:50:6f:36:00:7c:a6:7c:11:73:c1:a8:60:0c (ED25519)&#xa;ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDolvqv0mvkrpBMhzpvuXHjJlRv/vpYhMabXxhkBxOwz"><table>
+<elem key="type">ssh-rsa</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQCtST3F95eem6k4V02TcUi7/Qtn3WvJGNfqpbE+7EVuN2etoFpihgP5LFK2i/EDbeIAiEPALjtKy3gFMEJ5QDCkglBYt3gUbYv29TQBdx+LZQ8Kjry7W+KCKXhkKJEVnkT5cN6lYZIGAkIAVXacZ/YxWjj+ruSAx07fnNLMkqsMR9VA+8w0L2BsXhzYAwCdWrfRf8CE1UEdJy6WIxRsxIYOk25o9R44KXOWT2F8pP2tFbNcvUMlUY6jGHmXgrIEwDiBHuwd3uG5cVVmxJCCSY6Ygr9Aa12nXmUE5QJE9lisYIPUn9IjbRFb2d2hZE2jQHq3WCGdAls2Bwnn7Rgc7J09</elem>
+<elem key="fingerprint">108af572d7f97e14a5c54f9e978b3d58</elem>
+<elem key="bits">2048</elem>
+</table>
+<table>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBClT+wif/EERxNcaeTiny8IrQ5Qn6uEM7QxRlouee7KWHrHXomCB/Bq4gJ95Lx5sRPQJhGOZMLZyQaKPTIaILNQ=</elem>
+<elem key="fingerprint">7f10f557413c71dbb55bdb75c976305c</elem>
+<elem key="bits">256</elem>
+</table>
+<table>
+<elem key="type">ssh-ed25519</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIDolvqv0mvkrpBMhzpvuXHjJlRv/vpYhMabXxhkBxOwz</elem>
+<elem key="fingerprint">6b4c23506f36007ca67c1173c1a8600c</elem>
+<elem key="bits">256</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" version="2.4.18" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.18</cpe></service><script id="http-methods" output="&#xa;  Supported Methods: OPTIONS GET HEAD POST"><table key="Supported Methods">
+<elem>OPTIONS</elem>
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>POST</elem>
+</table>
+</script><script id="http-server-header" output="Apache/2.4.18 (Ubuntu)"><elem>Apache/2.4.18 (Ubuntu)</elem>
+</script><script id="http-title" output="Apache2 Ubuntu Default Page: It works"><elem key="title">Apache2 Ubuntu Default Page: It works</elem>
+</script></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="netbios-ssn" product="Samba smbd" version="3.X - 4.X" extrainfo="workgroup: WORKGROUP" hostname="TECHSUPPORT" method="probed" conf="10"><cpe>cpe:/a:samba:samba</cpe></service></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="netbios-ssn" product="Samba smbd" version="4.3.11-Ubuntu" extrainfo="workgroup: WORKGROUP" hostname="TECHSUPPORT" method="probed" conf="10"><cpe>cpe:/a:samba:samba</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="udp" portid="30242"/>
+<osmatch name="Linux 3.2 - 4.9" accuracy="100" line="65317">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=7.91%E=4%D=6/16%OT=22%CT=%CU=30242%PV=Y%DS=1%DC=D%G=N%M=080027%TM&#xa;OS:=60CA5E8C%P=x86_64-pc-linux-gnu)SEQ(SP=101%GCD=1%ISR=106%TI=Z%CI=I%II=I%&#xa;OS:TS=8)OPS(O1=M5B4ST11NW7%O2=M5B4ST11NW7%O3=M5B4NNT11NW7%O4=M5B4ST11NW7%O5&#xa;OS:=M5B4ST11NW7%O6=M5B4ST11)WIN(W1=7120%W2=7120%W3=7120%W4=7120%W5=7120%W6=&#xa;OS:7120)ECN(R=Y%DF=Y%T=40%W=7210%O=M5B4NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%&#xa;OS:A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0&#xa;OS:%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S&#xa;OS:=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R&#xa;OS:=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N&#xa;OS:%T=40%CD=S)&#xa;"/>
+</os>
+<uptime seconds="17111405" lastboot="Mon Nov 30 14:16:47 2020"/>
+<distance value="1"/>
+<tcpsequence index="257" difficulty="Good luck!" values="EF4A874E,1CAB2EB0,63949CC1,87402DAB,857A3444,3DFEDCC7"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="other" values="FFFFE407,FFFFE421,FFFFE43A,FFFFE453,FFFFE46C,FFFFE485"/>
+<hostscript><script id="clock-skew" output="mean: -11h20m04s, deviation: 3h10m30s, median: -9h30m05s"><elem key="median">-34205</elem>
+<elem key="stddev">11430</elem>
+<elem key="mean">-40804</elem>
+<elem key="count">3</elem>
+</script><script id="p2p-conficker" output="&#xa;  Checking for Conficker.C or higher...&#xa;  Check 1 (port 61248/tcp): CLEAN (Couldn&apos;t connect)&#xa;  Check 2 (port 37003/tcp): CLEAN (Couldn&apos;t connect)&#xa;  Check 3 (port 31082/udp): CLEAN (Timeout)&#xa;  Check 4 (port 35758/udp): CLEAN (Timeout)&#xa;  0/4 checks are positive: Host is CLEAN or ports are blocked&#xa;"/><script id="smb-os-discovery" output="&#xa;  OS: Windows 6.1 (Samba 4.3.11-Ubuntu)&#xa;  Computer name: techsupport&#xa;  NetBIOS computer name: TECHSUPPORT\x00&#xa;  Domain name: \x00&#xa;  FQDN: techsupport&#xa;  System time: 2021-06-16T16:26:39+05:30&#xa;"><elem key="os">Windows 6.1</elem>
+<elem key="lanmanager">Samba 4.3.11-Ubuntu</elem>
+<elem key="server">TECHSUPPORT\x00</elem>
+<elem key="date">2021-06-16T16:26:39+05:30</elem>
+<elem key="fqdn">techsupport</elem>
+<elem key="domain_dns">\x00</elem>
+<elem key="workgroup">WORKGROUP\x00</elem>
+</script><script id="smb-security-mode" output="&#xa;  account_used: guest&#xa;  authentication_level: user&#xa;  challenge_response: supported&#xa;  message_signing: disabled (dangerous, but default)"><elem key="account_used">guest</elem>
+<elem key="authentication_level">user</elem>
+<elem key="challenge_response">supported</elem>
+<elem key="message_signing">disabled</elem>
+</script><script id="smb2-security-mode" output="&#xa;  2.02: &#xa;    Message signing enabled but not required"><table key="2.02">
+<elem>Message signing enabled but not required</elem>
+</table>
+</script><script id="smb2-time" output="&#xa;  date: 2021-06-16T10:56:38&#xa;  start_date: N/A"><elem key="date">2021-06-16T10:56:38</elem>
+<elem key="start_date">N/A</elem>
+</script></hostscript><trace>
+<hop ttl="1" ipaddr="192.168.1.52" rtt="0.63"/>
+</trace>
+<times srtt="627" rttvar="285" to="100000"/>
+</host>
+<taskbegin task="NSE" time="1623875213"/>
+<taskend task="NSE" time="1623875213"/>
+<taskbegin task="NSE" time="1623875213"/>
+<taskend task="NSE" time="1623875213"/>
+<taskbegin task="NSE" time="1623875213"/>
+<taskend task="NSE" time="1623875213"/>
+<runstats><finished time="1623875213" timestr="Wed Jun 16 16:26:53 2021" summary="Nmap done at Wed Jun 16 16:26:53 2021; 1 IP address (1 host up) scanned in 24.38 seconds" elapsed="24.38" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

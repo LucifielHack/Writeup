@@ -1,0 +1,4 @@
+/images               (Status: 301) [Size: 313] [--> http://10.10.10.235/images/]
+/downloads            (Status: 301) [Size: 316] [--> http://10.10.10.235/downloads/]
+/assets               (Status: 301) [Size: 313] [--> http://10.10.10.235/assets/]
+/server-status        (Status: 403) [Size: 277]

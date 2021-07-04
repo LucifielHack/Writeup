@@ -1,0 +1,43 @@
+# Nmap 7.91 scan initiated Tue Jun 15 21:12:00 2021 as: nmap -T4 -sT -sV -sC -A -p- -oA nmap/complete 192.168.1.51
+Nmap scan report for 192.168.1.51
+Host is up (0.00058s latency).
+Not shown: 65530 closed ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 8c:9f:7e:78:82:ef:76:f6:26:23:c9:52:6d:aa:fe:d0 (RSA)
+|   256 2a:e2:f6:d2:52:1c:c1:d0:3d:aa:40:e6:b5:08:1d:45 (ECDSA)
+|_  256 fa:c9:eb:58:e3:d2:b7:4a:74:77:fc:69:0e:b6:68:08 (ED25519)
+80/tcp   open  http    nginx 1.14.0 (Ubuntu)
+|_http-server-header: nginx/1.14.0 (Ubuntu)
+|_http-title: W3.CSS Template
+5000/tcp open  http    nginx 1.14.0 (Ubuntu)
+|_http-generator: WordPress 5.7.2
+|_http-server-header: nginx/1.14.0 (Ubuntu)
+|_http-title: fsociety &#8211; Just another WordPress site
+8081/tcp open  http    nginx 1.14.0 (Ubuntu)
+|_http-generator: Joomla! - Open Source Content Management
+| http-robots.txt: 15 disallowed entries 
+| /joomla/administrator/ /administrator/ /bin/ /cache/ 
+| /cli/ /components/ /includes/ /installation/ /language/ 
+|_/layouts/ /libraries/ /logs/ /modules/ /plugins/ /tmp/
+|_http-server-header: nginx/1.14.0 (Ubuntu)
+|_http-title: Home
+9001/tcp open  http    nginx 1.14.0 (Ubuntu)
+|_http-generator: Drupal 7 (http://drupal.org)
+|_http-server-header: nginx/1.14.0 (Ubuntu)
+|_http-title: fsociety.web
+MAC Address: 08:00:27:3C:22:7A (Oracle VirtualBox virtual NIC)
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.6
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.58 ms 192.168.1.51
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jun 15 21:12:22 2021 -- 1 IP address (1 host up) scanned in 23.09 seconds

@@ -1,0 +1,13 @@
+# Nmap 7.91 scan initiated Thu Jun 10 15:51:15 2021 as: nmap -sT -vv -oA nmap/allports 10.10.10.241
+Nmap scan report for 10.10.10.241
+Host is up, received echo-reply ttl 63 (0.53s latency).
+Scanned at 2021-06-10 15:51:15 EDT for 77s
+Not shown: 997 filtered ports
+Reason: 925 no-responses and 72 host-unreaches
+PORT     STATE SERVICE    REASON
+22/tcp   open  ssh        syn-ack
+80/tcp   open  http       syn-ack
+9090/tcp open  zeus-admin syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Thu Jun 10 15:52:32 2021 -- 1 IP address (1 host up) scanned in 76.64 seconds

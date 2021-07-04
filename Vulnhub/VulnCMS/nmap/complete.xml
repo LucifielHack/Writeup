@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Tue Jun 15 21:12:00 2021 as: nmap -T4 -sT -sV -sC -A -p- -oA nmap/complete 192.168.1.51 -->
+<nmaprun scanner="nmap" args="nmap -T4 -sT -sV -sC -A -p- -oA nmap/complete 192.168.1.51" start="1623805920" startstr="Tue Jun 15 21:12:00 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.51" addrtype="ipv4"/>
+<address addr="08:00:27:3C:22:7A" addrtype="mac" vendor="Oracle VirtualBox virtual NIC"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1623805921" endtime="1623805942"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.51" addrtype="ipv4"/>
+<address addr="08:00:27:3C:22:7A" addrtype="mac" vendor="Oracle VirtualBox virtual NIC"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65530">
+<extrareasons reason="conn-refused" count="65530"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.6p1 Ubuntu 4ubuntu0.3" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.6p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  2048 8c:9f:7e:78:82:ef:76:f6:26:23:c9:52:6d:aa:fe:d0 (RSA)&#xa;  256 2a:e2:f6:d2:52:1c:c1:d0:3d:aa:40:e6:b5:08:1d:45 (ECDSA)&#xa;  256 fa:c9:eb:58:e3:d2:b7:4a:74:77:fc:69:0e:b6:68:08 (ED25519)"><table>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQDdSsiEJl9plAj5tFBjL3umADn3xcuicV0z18Oz81yLfmHAsbU+7Iog2NQE76Ipz6uWIoEAW+/NH2o0ZIPTfCkUVmN/iep3F0S+We0oUHpz+7RsodpfbqzNuZplnFsgWLX1n7D/DFgTX6nRKUuTJSVE7NZsQePvvkO6FlEValulJw5r40HEkIyANeb4JHn5B+Lhj+2lkygYMzZiNz4drPVusYHbSwSke1Ip+MFy7gOinxH7anBew2llMxDp6MOymg8sL8myGTODG1AAmBI4qsG25IFBvJ0P4kqkjv5DVLC/5++rtp5mlLFAfNtw6jxPTerh5iX8yQ3iEvzTfynwhlQv</elem>
+<elem key="bits">2048</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="fingerprint">8c9f7e7882ef76f62623c9526daafed0</elem>
+</table>
+<table>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBBI+tuN6GcZ4NeT9JPmtEYj6ww0EOqMVKpBYtpvUReNT4T49MojP8e/b6cV7sju/vi5WfX8LMwkXrVijkk9AoPM=</elem>
+<elem key="bits">256</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="fingerprint">2ae2f6d2521cc1d03daa40e6b5081d45</elem>
+</table>
+<table>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIKqMpaSRJ6Q1lEFv6gT2PLlOMLZwBG9Z/H4l8XMDS4sc</elem>
+<elem key="bits">256</elem>
+<elem key="type">ssh-ed25519</elem>
+<elem key="fingerprint">fac9eb58e3d2b74a7477fc690eb66808</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="nginx" version="1.14.0" extrainfo="Ubuntu" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx:1.14.0</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="http-server-header" output="nginx/1.14.0 (Ubuntu)"><elem>nginx/1.14.0 (Ubuntu)</elem>
+</script><script id="http-title" output="W3.CSS Template"><elem key="title">W3.CSS Template</elem>
+</script></port>
+<port protocol="tcp" portid="5000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="nginx" version="1.14.0" extrainfo="Ubuntu" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx:1.14.0</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="http-generator" output="WordPress 5.7.2"/><script id="http-server-header" output="nginx/1.14.0 (Ubuntu)"><elem>nginx/1.14.0 (Ubuntu)</elem>
+</script><script id="http-title" output="fsociety &amp;#8211; Just another WordPress site"><elem key="title">fsociety &amp;#8211; Just another WordPress site</elem>
+</script></port>
+<port protocol="tcp" portid="8081"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="nginx" version="1.14.0" extrainfo="Ubuntu" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx:1.14.0</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="http-generator" output="Joomla! - Open Source Content Management"/><script id="http-robots.txt" output="15 disallowed entries &#xa;/joomla/administrator/ /administrator/ /bin/ /cache/ &#xa;/cli/ /components/ /includes/ /installation/ /language/ &#xa;/layouts/ /libraries/ /logs/ /modules/ /plugins/ /tmp/"/><script id="http-server-header" output="nginx/1.14.0 (Ubuntu)"><elem>nginx/1.14.0 (Ubuntu)</elem>
+</script><script id="http-title" output="Home"><elem key="title">Home</elem>
+</script></port>
+<port protocol="tcp" portid="9001"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="nginx" version="1.14.0" extrainfo="Ubuntu" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx:1.14.0</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="http-generator" output="Drupal 7 (http://drupal.org)"/><script id="http-server-header" output="nginx/1.14.0 (Ubuntu)"><elem>nginx/1.14.0 (Ubuntu)</elem>
+</script><script id="http-title" output="fsociety.web"><elem key="title">fsociety.web</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="34661"/>
+<osmatch name="Linux 4.15 - 5.6" accuracy="100" line="67241">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="5.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:5</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="1597252" lastboot="Fri May 28 09:31:30 2021"/>
+<distance value="1"/>
+<tcpsequence index="258" difficulty="Good luck!" values="BBF317BF,10F461A0,7EA365E9,9907F252,3F0B406B,84EB6AAE"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="5F340F66,5F340FCB,5F34102F,5F341093,5F3410F7,5F34115B"/>
+<trace>
+<hop ttl="1" ipaddr="192.168.1.51" rtt="0.58"/>
+</trace>
+<times srtt="581" rttvar="160" to="100000"/>
+</host>
+<runstats><finished time="1623805942" timestr="Tue Jun 15 21:12:22 2021" summary="Nmap done at Tue Jun 15 21:12:22 2021; 1 IP address (1 host up) scanned in 23.09 seconds" elapsed="23.09" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Sun Jun 27 09:23:46 2021 as: nmap -T4 -sT -sV -sC -A -vv -p2222,43097,42135,59777 -oA nmap/complete 10.129.71.123 -->
+<nmaprun scanner="nmap" args="nmap -T4 -sT -sV -sC -A -vv -p2222,43097,42135,59777 -oA nmap/complete 10.129.71.123" start="1624800226" startstr="Sun Jun 27 09:23:46 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="4" services="2222,42135,43097,59777"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1624800227"/>
+<taskend task="NSE" time="1624800227"/>
+<taskbegin task="NSE" time="1624800227"/>
+<taskend task="NSE" time="1624800227"/>
+<taskbegin task="NSE" time="1624800227"/>
+<taskend task="NSE" time="1624800227"/>
+<taskbegin task="Ping Scan" time="1624800227"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.129.71.123" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskend task="Ping Scan" time="1624800227" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1624800227"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1624800227"/>
+<taskbegin task="Connect Scan" time="1624800227"/>
+<taskend task="Connect Scan" time="1624800227" extrainfo="4 total ports"/>
+<taskbegin task="Service scan" time="1624800228"/>
+<taskend task="Service scan" time="1624800333" extrainfo="4 services on 1 host"/>
+<taskbegin task="Traceroute" time="1624800339"/>
+<taskend task="Traceroute" time="1624800339"/>
+<taskbegin task="Parallel DNS resolution of 2 hosts." time="1624800339"/>
+<taskend task="Parallel DNS resolution of 2 hosts." time="1624800340"/>
+<taskbegin task="NSE" time="1624800340"/>
+<taskend task="NSE" time="1624800344"/>
+<taskbegin task="NSE" time="1624800344"/>
+<taskend task="NSE" time="1624800346"/>
+<taskbegin task="NSE" time="1624800346"/>
+<taskend task="NSE" time="1624800346"/>
+<host starttime="1624800227" endtime="1624800346"><status state="up" reason="reset" reason_ttl="63"/>
+<address addr="10.129.71.123" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="2222"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" extrainfo="protocol 2.0" servicefp="SF-Port2222-TCP:V=7.91%I=7%D=6/27%Time=60D87BEA%P=x86_64-pc-linux-gnu%r(NULL,24,&quot;SSH-2\.0-SSH\x20Server\x20-\x20Banana\x20Studio\r\n&quot;);" method="probed" conf="10"/><script id="fingerprint-strings" output="&#xa;  NULL: &#xa;    SSH-2.0-SSH Server - Banana Studio"><elem key="NULL">&#xa;    SSH-2.0-SSH Server - Banana Studio</elem>
+</script><script id="ssh-hostkey" output="&#xa;  2048 71:90:e3:a7:c9:5d:83:66:34:88:3d:eb:b4:c7:88:fb (RSA)&#xa;ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCqK2WZkEVE0CPTPpWoyDKZkHVrmffyDgcNNVK3PkamKs3M8tyqeFBivz4o8i9Ai8UlrVZ8mztI3qb+cHCdLMDpaO0ghf/50qYVGH4gU5vuVN0tbBJAR67ot4U+7WCcdh4sZHX5NNatyE36wpKj9t7n2XpEmIYda4CEIeUOy2Mm3Es+GD0AAUl8xG4uMYd2rdrJrrO1p15PO97/1ebsTH6SgFz3qjZvSirpom62WmmMbfRvJtNFiNJRydDpJvag2urk16GM9a0buF4h1JCGwMHxpSY05aKQLo8shdb9SxJRa9lMu3g2zgiDAmBCoKjsiPnuyWW+8G7Vz7X6nJC87KpL"><table>
+<elem key="type">ssh-rsa</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQCqK2WZkEVE0CPTPpWoyDKZkHVrmffyDgcNNVK3PkamKs3M8tyqeFBivz4o8i9Ai8UlrVZ8mztI3qb+cHCdLMDpaO0ghf/50qYVGH4gU5vuVN0tbBJAR67ot4U+7WCcdh4sZHX5NNatyE36wpKj9t7n2XpEmIYda4CEIeUOy2Mm3Es+GD0AAUl8xG4uMYd2rdrJrrO1p15PO97/1ebsTH6SgFz3qjZvSirpom62WmmMbfRvJtNFiNJRydDpJvag2urk16GM9a0buF4h1JCGwMHxpSY05aKQLo8shdb9SxJRa9lMu3g2zgiDAmBCoKjsiPnuyWW+8G7Vz7X6nJC87KpL</elem>
+<elem key="bits">2048</elem>
+<elem key="fingerprint">7190e3a7c95d836634883debb4c788fb</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="42135"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="ES File Explorer Name Response httpd" devicetype="phone" method="probed" conf="10"><cpe>cpe:/a:estrongs:es_file_explorer</cpe></service><script id="http-title" output="Site doesn&apos;t have a title (text/html)."></script></port>
+<port protocol="tcp" portid="43097"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="unknown" servicefp="SF-Port43097-TCP:V=7.91%I=7%D=6/27%Time=60D87BEA%P=x86_64-pc-linux-gnu%r(GenericLines,AA,&quot;HTTP/1\.0\x20400\x20Bad\x20Request\r\nDate:\x20Sun,\x2027\x20Jun\x202021\x2003:53:51\x20GMT\r\nContent-Length:\x2022\r\nContent-Type:\x20text/plain;\x20charset=US-ASCII\r\nConnection:\x20Close\r\n\r\nInvalid\x20request\x20line:\x20&quot;)%r(GetRequest,5C,&quot;HTTP/1\.1\x20412\x20Precondition\x20Failed\r\nDate:\x20Sun,\x2027\x20Jun\x202021\x2003:53:51\x20GMT\r\nContent-Length:\x200\r\n\r\n&quot;)%r(HTTPOptions,B5,&quot;HTTP/1\.0\x20501\x20Not\x20Implemented\r\nDate:\x20Sun,\x2027\x20Jun\x202021\x2003:53:56\x20GMT\r\nContent-Length:\x2029\r\nContent-Type:\x20text/plain;\x20charset=US-ASCII\r\nConnection:\x20Close\r\n\r\nMethod\x20not\x20supported:\x20OPTIONS&quot;)%r(RTSPRequest,BB,&quot;HTTP/1\.0\x20400\x20Bad\x20Request\r\nDate:\x20Sun,\x2027\x20Jun\x202021\x2003:53:56\x20GMT\r\nContent-Length:\x2039\r\nContent-Type:\x20text/plain;\x20charset=US-ASCII\r\nConnection:\x20Close\r\n\r\nNot\x20a\x20valid\x20protocol\x20version:\x20\x20RTSP/1\.0&quot;)%r(Help,AE,&quot;HTTP/1\.0\x20400\x20Bad\x20Request\r\nDate:\x20Sun,\x2027\x20Jun\x202021\x2003:54:13\x20GMT\r\nContent-Length:\x2026\r\nContent-Type:\x20text/plain;\x20charset=US-ASCII\r\nConnection:\x20Close\r\n\r\nInvalid\x20request\x20line:\x20HELP&quot;)%r(SSLSessionReq,DD,&quot;HTTP/1\.0\x20400\x20Bad\x20Request\r\nDate:\x20Sun,\x2027\x20Jun\x202021\x2003:54:13\x20GMT\r\nContent-Length:\x2073\r\nContent-Type:\x20text/plain;\x20charset=US-ASCII\r\nConnection:\x20Close\r\n\r\nInvalid\x20request\x20line:\x20\x16\x03\0\0S\x01\0\0O\x03\0\?G\?\?\?,\?\?\?`~\?\0\?\?{\?\?\?\?w\?\?\?\?&lt;=\?o\?\x10n\0\0\(\0\x16\0\x13\0&quot;)%r(TerminalServerCookie,CA,&quot;HTTP/1\.0\x20400\x20Bad\x20Request\r\nDate:\x20Sun,\x2027\x20Jun\x202021\x2003:54:14\x20GMT\r\nContent-Length:\x2054\r\nContent-Type:\x20text/plain;\x20charset=US-ASCII\r\nConnection:\x20Close\r\n\r\nInvalid\x20request\x20line:\x20\x03\0\0\*%\?\0\0\0\0\0Cookie:\x20mstshash=nmap&quot;)%r(TLSSessionReq,DB,&quot;HTTP/1\.0\x20400\x20Bad\x20Request\r\nDate:\x20Sun,\x2027\x20Jun\x202021\x2003:54:14\x20GMT\r\nContent-Length:\x2071\r\nContent-Type:\x20text/plain;\x20charset=US-ASCII\r\nConnection:\x20Close\r\n\r\nInvalid\x20request\x20line:\x20\x16\x03\0\0i\x01\0\0e\x03\x03U\x1c\?\?random1random2random3random4\0\0\x0c\0/\0&quot;);" method="table" conf="3"/><script id="fingerprint-strings" output="&#xa;  GenericLines: &#xa;    HTTP/1.0 400 Bad Request&#xa;    Date: Sun, 27 Jun 2021 03:53:51 GMT&#xa;    Content-Length: 22&#xa;    Content-Type: text/plain; charset=US-ASCII&#xa;    Connection: Close&#xa;    Invalid request line:&#xa;  GetRequest: &#xa;    HTTP/1.1 412 Precondition Failed&#xa;    Date: Sun, 27 Jun 2021 03:53:51 GMT&#xa;    Content-Length: 0&#xa;  HTTPOptions: &#xa;    HTTP/1.0 501 Not Implemented&#xa;    Date: Sun, 27 Jun 2021 03:53:56 GMT&#xa;    Content-Length: 29&#xa;    Content-Type: text/plain; charset=US-ASCII&#xa;    Connection: Close&#xa;    Method not supported: OPTIONS&#xa;  Help: &#xa;    HTTP/1.0 400 Bad Request&#xa;    Date: Sun, 27 Jun 2021 03:54:13 GMT&#xa;    Content-Length: 26&#xa;    Content-Type: text/plain; charset=US-ASCII&#xa;    Connection: Close&#xa;    Invalid request line: HELP&#xa;  RTSPRequest: &#xa;    HTTP/1.0 400 Bad Request&#xa;    Date: Sun, 27 Jun 2021 03:53:56 GMT&#xa;    Content-Length: 39&#xa;    Content-Type: text/plain; charset=US-ASCII&#xa;    Connection: Close&#xa;    valid protocol version: RTSP/1.0&#xa;  SSLSessionReq: &#xa;    HTTP/1.0 400 Bad Request&#xa;    Date: Sun, 27 Jun 2021 03:54:13 GMT&#xa;    Content-Length: 73&#xa;    Content-Type: text/plain; charset=US-ASCII&#xa;    Connection: Close&#xa;    Invalid request line: &#xa;    ?G???,???`~?&#xa;    ??{????w????&lt;=?o?&#xa;  TLSSessionReq: &#xa;    HTTP/1.0 400 Bad Request&#xa;    Date: Sun, 27 Jun 2021 03:54:14 GMT&#xa;    Content-Length: 71&#xa;    Content-Type: text/plain; charset=US-ASCII&#xa;    Connection: Close&#xa;    Invalid request line: &#xa;    ??random1random2random3random4&#xa;  TerminalServerCookie: &#xa;    HTTP/1.0 400 Bad Request&#xa;    Date: Sun, 27 Jun 2021 03:54:14 GMT&#xa;    Content-Length: 54&#xa;    Content-Type: text/plain; charset=US-ASCII&#xa;    Connection: Close&#xa;    Invalid request line: &#xa;    Cookie: mstshash=nmap"><elem key="GenericLines">&#xa;    HTTP/1.0 400 Bad Request&#xa;    Date: Sun, 27 Jun 2021 03:53:51 GMT&#xa;    Content-Length: 22&#xa;    Content-Type: text/plain; charset=US-ASCII&#xa;    Connection: Close&#xa;    Invalid request line:</elem>
+<elem key="GetRequest">&#xa;    HTTP/1.1 412 Precondition Failed&#xa;    Date: Sun, 27 Jun 2021 03:53:51 GMT&#xa;    Content-Length: 0</elem>
+<elem key="HTTPOptions">&#xa;    HTTP/1.0 501 Not Implemented&#xa;    Date: Sun, 27 Jun 2021 03:53:56 GMT&#xa;    Content-Length: 29&#xa;    Content-Type: text/plain; charset=US-ASCII&#xa;    Connection: Close&#xa;    Method not supported: OPTIONS</elem>
+<elem key="Help">&#xa;    HTTP/1.0 400 Bad Request&#xa;    Date: Sun, 27 Jun 2021 03:54:13 GMT&#xa;    Content-Length: 26&#xa;    Content-Type: text/plain; charset=US-ASCII&#xa;    Connection: Close&#xa;    Invalid request line: HELP</elem>
+<elem key="RTSPRequest">&#xa;    HTTP/1.0 400 Bad Request&#xa;    Date: Sun, 27 Jun 2021 03:53:56 GMT&#xa;    Content-Length: 39&#xa;    Content-Type: text/plain; charset=US-ASCII&#xa;    Connection: Close&#xa;    valid protocol version: RTSP/1.0</elem>
+<elem key="SSLSessionReq">&#xa;    HTTP/1.0 400 Bad Request&#xa;    Date: Sun, 27 Jun 2021 03:54:13 GMT&#xa;    Content-Length: 73&#xa;    Content-Type: text/plain; charset=US-ASCII&#xa;    Connection: Close&#xa;    Invalid request line: &#xa;    ?G???,???`~?&#xa;    ??{????w????&lt;=?o?</elem>
+<elem key="TLSSessionReq">&#xa;    HTTP/1.0 400 Bad Request&#xa;    Date: Sun, 27 Jun 2021 03:54:14 GMT&#xa;    Content-Length: 71&#xa;    Content-Type: text/plain; charset=US-ASCII&#xa;    Connection: Close&#xa;    Invalid request line: &#xa;    ??random1random2random3random4</elem>
+<elem key="TerminalServerCookie">&#xa;    HTTP/1.0 400 Bad Request&#xa;    Date: Sun, 27 Jun 2021 03:54:14 GMT&#xa;    Content-Length: 54&#xa;    Content-Type: text/plain; charset=US-ASCII&#xa;    Connection: Close&#xa;    Invalid request line: &#xa;    Cookie: mstshash=nmap</elem>
+</script></port>
+<port protocol="tcp" portid="59777"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Bukkit JSONAPI httpd for Minecraft game server" version="3.6.0 or older" method="probed" conf="10"/><script id="http-title" output="Site doesn&apos;t have a title (text/plain)."></script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="2222"/>
+<portused state="closed" proto="udp" portid="43551"/>
+<osmatch name="Linux 3.1" accuracy="95" line="62920">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:3.1</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2" accuracy="95" line="64667">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="95"><cpe>cpe:/o:linux:linux_kernel:3.2</cpe></osclass>
+</osmatch>
+<osmatch name="AXIS 210A or 211 Network Camera (Linux 2.6.17)" accuracy="94" line="61818">
+<osclass type="webcam" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:2.6.17</cpe></osclass>
+<osclass type="webcam" vendor="AXIS" osfamily="embedded" accuracy="94"><cpe>cpe:/h:axis:210a_network_camera</cpe><cpe>cpe:/h:axis:211_network_camera</cpe></osclass>
+</osmatch>
+<osmatch name="Sony X75CH-series Android TV (Android 5.0)" accuracy="94" line="31492">
+<osclass type="media device" vendor="Google" osfamily="Android" osgen="5.X" accuracy="94"><cpe>cpe:/o:google:android:5.0</cpe><cpe>cpe:/h:sony:x75ch</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.8" accuracy="94" line="66234">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="94"><cpe>cpe:/o:linux:linux_kernel:3.8</cpe></osclass>
+</osmatch>
+<osmatch name="ASUS RT-N56U WAP (Linux 3.4)" accuracy="93" line="8401">
+<osclass type="WAP" vendor="Asus" osfamily="embedded" accuracy="93"><cpe>cpe:/h:asus:rt-n56u</cpe></osclass>
+<osclass type="WAP" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3.4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.16" accuracy="93" line="64174">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3.16</cpe></osclass>
+</osmatch>
+<osmatch name="Android 4.1 - 6.0 (Linux 3.4 - 3.14)" accuracy="93" line="31409">
+<osclass type="phone" vendor="Google" osfamily="Android" osgen="4.X" accuracy="93"><cpe>cpe:/o:google:android:4</cpe></osclass>
+<osclass type="phone" vendor="Google" osfamily="Android" osgen="5.X" accuracy="93"><cpe>cpe:/o:google:android:5</cpe></osclass>
+<osclass type="phone" vendor="Google" osfamily="Android" osgen="6.X" accuracy="93"><cpe>cpe:/o:google:android:6</cpe></osclass>
+<osclass type="phone" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Android 5.0 - 6.0.1 (Linux 3.4)" accuracy="93" line="31515">
+<osclass type="phone" vendor="Google" osfamily="Android" osgen="5.X" accuracy="93"><cpe>cpe:/o:google:android:5</cpe></osclass>
+<osclass type="phone" vendor="Google" osfamily="Android" osgen="6.X" accuracy="93"><cpe>cpe:/o:google:android:6</cpe></osclass>
+<osclass type="phone" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3.4</cpe></osclass>
+</osmatch>
+<osmatch name="Android 5.0 - 7.0 (Linux 3.4 - 3.10)" accuracy="93" line="31543">
+<osclass type="phone" vendor="Google" osfamily="Android" osgen="5.X" accuracy="93"><cpe>cpe:/o:google:android:5</cpe></osclass>
+<osclass type="phone" vendor="Google" osfamily="Android" osgen="6.X" accuracy="93"><cpe>cpe:/o:google:android:6</cpe></osclass>
+<osclass type="phone" vendor="Google" osfamily="Android" osgen="7.X" accuracy="93"><cpe>cpe:/o:google:android:7</cpe></osclass>
+<osclass type="phone" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="93"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="SCAN(V=7.91%E=4%D=6/27%OT=2222%CT=%CU=43551%PV=Y%DS=2%DC=T%G=N%TM=60D87C5A%P=x86_64-pc-linux-gnu)&#xa;SEQ(SP=105%GCD=1%ISR=10D%TI=Z%CI=Z%II=I%TS=A)&#xa;SEQ(SP=105%GCD=1%ISR=10D%TI=Z%CI=Z%TS=A)&#xa;OPS(O1=M54DST11NW6%O2=M54DST11NW6%O3=M54DNNT11NW6%O4=M54DST11NW6%O5=M54DST11NW6%O6=M54DST11)&#xa;WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)&#xa;ECN(R=Y%DF=Y%T=40%W=FFFF%O=M54DNNSNW6%CC=Y%Q=)&#xa;T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)&#xa;T2(R=N)&#xa;T3(R=N)&#xa;T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)&#xa;T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)&#xa;T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)&#xa;T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)&#xa;U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)&#xa;IE(R=Y%DFI=N%T=40%CD=S)&#xa;"/>
+</os>
+<uptime seconds="4613" lastboot="Sun Jun 27 08:08:53 2021"/>
+<distance value="2"/>
+<tcpsequence index="261" difficulty="Good luck!" values="4E738889,6AFDD028,812923,8A0303FD,26A0EABD,5207F8CF"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="46426C,4642D0,464335,464399,4643FD,464461"/>
+<trace proto="icmp">
+<hop ttl="1" ipaddr="10.10.14.1" rtt="149.49"/>
+<hop ttl="2" ipaddr="10.129.71.123" rtt="149.62"/>
+</trace>
+<times srtt="196089" rttvar="41063" to="360341"/>
+</host>
+<taskbegin task="NSE" time="1624800346"/>
+<taskend task="NSE" time="1624800346"/>
+<taskbegin task="NSE" time="1624800346"/>
+<taskend task="NSE" time="1624800346"/>
+<taskbegin task="NSE" time="1624800346"/>
+<taskend task="NSE" time="1624800346"/>
+<runstats><finished time="1624800346" timestr="Sun Jun 27 09:25:46 2021" summary="Nmap done at Sun Jun 27 09:25:46 2021; 1 IP address (1 host up) scanned in 121.08 seconds" elapsed="121.08" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

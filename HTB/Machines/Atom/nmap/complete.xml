@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Wed Jun 16 18:25:41 2021 as: nmap -T4 -sT -sV -sC -A -vv -p80,135,443,445,5985,6379 -oA nmap/complete 10.10.10.237 -->
+<nmaprun scanner="nmap" args="nmap -T4 -sT -sV -sC -A -vv -p80,135,443,445,5985,6379 -oA nmap/complete 10.10.10.237" start="1623882341" startstr="Wed Jun 16 18:25:41 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="6" services="80,135,443,445,5985,6379"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1623882342"/>
+<taskend task="NSE" time="1623882342"/>
+<taskbegin task="NSE" time="1623882342"/>
+<taskend task="NSE" time="1623882342"/>
+<taskbegin task="NSE" time="1623882342"/>
+<taskend task="NSE" time="1623882342"/>
+<taskbegin task="Ping Scan" time="1623882342"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.10.237" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskend task="Ping Scan" time="1623882342" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1623882342"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1623882342"/>
+<taskbegin task="Connect Scan" time="1623882342"/>
+<taskend task="Connect Scan" time="1623882343" extrainfo="6 total ports"/>
+<taskbegin task="Service scan" time="1623882343"/>
+<taskend task="Service scan" time="1623882360" extrainfo="6 services on 1 host"/>
+<taskbegin task="Traceroute" time="1623882367"/>
+<taskend task="Traceroute" time="1623882367"/>
+<taskbegin task="Parallel DNS resolution of 2 hosts." time="1623882367"/>
+<taskend task="Parallel DNS resolution of 2 hosts." time="1623882367"/>
+<taskbegin task="NSE" time="1623882367"/>
+<taskprogress task="NSE" time="1623882398" percent="99.88" remaining="1" etc="1623882398"/>
+<taskend task="NSE" time="1623882407"/>
+<taskbegin task="NSE" time="1623882407"/>
+<taskend task="NSE" time="1623882409"/>
+<taskbegin task="NSE" time="1623882409"/>
+<taskend task="NSE" time="1623882409"/>
+<host starttime="1623882342" endtime="1623882409"><status state="up" reason="echo-reply" reason_ttl="127"/>
+<address addr="10.10.10.237" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" version="2.4.46" extrainfo="(Win64) OpenSSL/1.1.1j PHP/7.3.27" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.46</cpe></service><script id="http-methods" output="&#xa;  Supported Methods: HEAD GET POST OPTIONS TRACE&#xa;  Potentially risky methods: TRACE"><table key="Supported Methods">
+<elem>HEAD</elem>
+<elem>GET</elem>
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+<elem>TRACE</elem>
+</table>
+<table key="Potentially risky methods">
+<elem>TRACE</elem>
+</table>
+</script><script id="http-server-header" output="Apache/2.4.46 (Win64) OpenSSL/1.1.1j PHP/7.3.27"><elem>Apache/2.4.46 (Win64) OpenSSL/1.1.1j PHP/7.3.27</elem>
+</script><script id="http-title" output="Heed Solutions"><elem key="title">Heed Solutions</elem>
+</script></port>
+<port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" version="2.4.46" extrainfo="(Win64) OpenSSL/1.1.1j PHP/7.3.27" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.46</cpe></service><script id="http-methods" output="&#xa;  Supported Methods: HEAD GET POST OPTIONS TRACE&#xa;  Potentially risky methods: TRACE"><table key="Supported Methods">
+<elem>HEAD</elem>
+<elem>GET</elem>
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+<elem>TRACE</elem>
+</table>
+<table key="Potentially risky methods">
+<elem>TRACE</elem>
+</table>
+</script><script id="http-server-header" output="Apache/2.4.46 (Win64) OpenSSL/1.1.1j PHP/7.3.27"><elem>Apache/2.4.46 (Win64) OpenSSL/1.1.1j PHP/7.3.27</elem>
+</script><script id="http-title" output="Heed Solutions"><elem key="title">Heed Solutions</elem>
+</script><script id="ssl-cert" output="Subject: commonName=localhost&#xa;Issuer: commonName=localhost&#xa;Public Key type: rsa&#xa;Public Key bits: 1024&#xa;Signature Algorithm: sha1WithRSAEncryption&#xa;Not valid before: 2009-11-10T23:48:47&#xa;Not valid after:  2019-11-08T23:48:47&#xa;MD5:   a0a4 4cc9 9e84 b26f 9e63 9f9e d229 dee0&#xa;SHA-1: b023 8c54 7a90 5bfa 119c 4e8b acca eacf 3649 1ff6&#xa;-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIBnzCCAQgCCQC1x1LJh4G1AzANBgkqhkiG9w0BAQUFADAUMRIwEAYDVQQDEwls&#xa;b2NhbGhvc3QwHhcNMDkxMTEwMjM0ODQ3WhcNMTkxMTA4MjM0ODQ3WjAUMRIwEAYD&#xa;VQQDEwlsb2NhbGhvc3QwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMEl0yfj&#xa;7K0Ng2pt51+adRAj4pCdoGOVjx1BmljVnGOMW3OGkHnMw9ajibh1vB6UfHxu463o&#xa;J1wLxgxq+Q8y/rPEehAjBCspKNSq+bMvZhD4p8HNYMRrKFfjZzv3ns1IItw46kgT&#xa;gDpAl1cMRzVGPXFimu5TnWMOZ3ooyaQ0/xntAgMBAAEwDQYJKoZIhvcNAQEFBQAD&#xa;gYEAavHzSWz5umhfb/MnBMa5DL2VNzS+9whmmpsDGEG+uR0kM1W2GQIdVHHJTyFd&#xa;aHXzgVJBQcWTwhp84nvHSiQTDBSaT6cQNQpvag/TaED/SEQpm0VqDFwpfFYuufBL&#xa;vVNbLkKxbK2XwUvu0RxoLdBMC/89HqrZ0ppiONuQ+X2MtxE=&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;"><table key="subject">
+<elem key="commonName">localhost</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">localhost</elem>
+</table>
+<table key="pubkey">
+<elem key="type">rsa</elem>
+<elem key="bits">1024</elem>
+<elem key="modulus">C125D327E3ECAD0D836A6DE75F9A751023E2909DA063958F1D419A58D59C638C5B73869079CCC3D6A389B875BC1E947C7C6EE3ADE8275C0BC60C6AF90F32FEB3C47A1023042B2928D4AAF9B32F6610F8A7C1CD60C46B2857E3673BF79ECD4822DC38EA4813803A4097570C4735463D71629AEE539D630E677A28C9A434FF19ED</elem>
+<elem key="exponent">65537</elem>
+</table>
+<elem key="sig_algo">sha1WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2009-11-10T23:48:47</elem>
+<elem key="notAfter">2019-11-08T23:48:47</elem>
+</table>
+<elem key="md5">a0a44cc99e84b26f9e639f9ed229dee0</elem>
+<elem key="sha1">b0238c547a905bfa119c4e8baccaeacf36491ff6</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIBnzCCAQgCCQC1x1LJh4G1AzANBgkqhkiG9w0BAQUFADAUMRIwEAYDVQQDEwls&#xa;b2NhbGhvc3QwHhcNMDkxMTEwMjM0ODQ3WhcNMTkxMTA4MjM0ODQ3WjAUMRIwEAYD&#xa;VQQDEwlsb2NhbGhvc3QwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMEl0yfj&#xa;7K0Ng2pt51+adRAj4pCdoGOVjx1BmljVnGOMW3OGkHnMw9ajibh1vB6UfHxu463o&#xa;J1wLxgxq+Q8y/rPEehAjBCspKNSq+bMvZhD4p8HNYMRrKFfjZzv3ns1IItw46kgT&#xa;gDpAl1cMRzVGPXFimu5TnWMOZ3ooyaQ0/xntAgMBAAEwDQYJKoZIhvcNAQEFBQAD&#xa;gYEAavHzSWz5umhfb/MnBMa5DL2VNzS+9whmmpsDGEG+uR0kM1W2GQIdVHHJTyFd&#xa;aHXzgVJBQcWTwhp84nvHSiQTDBSaT6cQNQpvag/TaED/SEQpm0VqDFwpfFYuufBL&#xa;vVNbLkKxbK2XwUvu0RxoLdBMC/89HqrZ0ppiONuQ+X2MtxE=&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="ssl-date" output="TLS randomness does not represent time"></script><script id="tls-alpn" output="&#xa;  http/1.1"><elem>http/1.1</elem>
+</script></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="microsoft-ds" product="Windows 10 Pro 19042 microsoft-ds" extrainfo="workgroup: WORKGROUP" hostname="ATOM" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="5985"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service><script id="http-server-header" output="Microsoft-HTTPAPI/2.0"><elem>Microsoft-HTTPAPI/2.0</elem>
+</script><script id="http-title" output="Not Found"><elem key="title">Not Found</elem>
+</script></port>
+<port protocol="tcp" portid="6379"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="redis" product="Redis key-value store" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Microsoft Windows XP SP3" accuracy="89" line="84874">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="XP" accuracy="89"><cpe>cpe:/o:microsoft:windows_xp::sp3</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows XP SP2" accuracy="86" line="81598">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="XP" accuracy="86"><cpe>cpe:/o:microsoft:windows_xp::sp2</cpe></osclass>
+</osmatch>
+<osmatch name="Microsoft Windows 7" accuracy="85" line="76408">
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="85"><cpe>cpe:/o:microsoft:windows_7</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="SCAN(V=7.91%E=4%D=6/16%OT=80%CT=%CU=%PV=Y%DS=2%DC=T%G=N%TM=60CA7AA9%P=x86_64-pc-linux-gnu)&#xa;SEQ(SP=101%GCD=1%ISR=109%TI=I%II=I%SS=S%TS=U)&#xa;OPS(O1=M54DNW8NNS%O2=M54DNW8NNS%O3=M54DNW8%O4=M54DNW8NNS%O5=M54DNW8NNS%O6=M54DNNS)&#xa;WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FF70)&#xa;ECN(R=Y%DF=Y%TG=80%W=FFFF%O=M54DNW8NNS%CC=N%Q=)&#xa;T1(R=Y%DF=Y%TG=80%S=O%A=S+%F=AS%RD=0%Q=)&#xa;T2(R=N)&#xa;T3(R=N)&#xa;T4(R=N)&#xa;U1(R=N)&#xa;IE(R=Y%DFI=N%TG=80%CD=Z)&#xa;"/>
+</os>
+<distance value="2"/>
+<tcpsequence index="257" difficulty="Good luck!" values="ED133145,41DE8F91,89FF6B6B,AC683D16,98AAD153,DE862357"/>
+<ipidsequence class="Incremental" values="3C73,3C74,3C75,3C76,3C77,3C78"/>
+<tcptssequence class="none returned (unsupported)"/>
+<hostscript><script id="clock-skew" output="mean: -7h10m03s, deviation: 4h02m30s, median: -9h30m04s"><elem key="count">3</elem>
+<elem key="mean">-25803</elem>
+<elem key="median">-34204</elem>
+<elem key="stddev">14550</elem>
+</script><script id="p2p-conficker" output="&#xa;  Checking for Conficker.C or higher...&#xa;  Check 1 (port 40777/tcp): CLEAN (Timeout)&#xa;  Check 2 (port 38781/tcp): CLEAN (Timeout)&#xa;  Check 3 (port 39922/udp): CLEAN (Timeout)&#xa;  Check 4 (port 58281/udp): CLEAN (Timeout)&#xa;  0/4 checks are positive: Host is CLEAN or ports are blocked&#xa;"/><script id="smb-os-discovery" output="&#xa;  OS: Windows 10 Pro 19042 (Windows 10 Pro 6.3)&#xa;  OS CPE: cpe:/o:microsoft:windows_10::-&#xa;  Computer name: ATOM&#xa;  NetBIOS computer name: ATOM\x00&#xa;  Workgroup: WORKGROUP\x00&#xa;  System time: 2021-06-16T05:56:06-07:00&#xa;"><elem key="os">Windows 10 Pro 19042</elem>
+<elem key="lanmanager">Windows 10 Pro 6.3</elem>
+<elem key="server">ATOM\x00</elem>
+<elem key="date">2021-06-16T05:56:06-07:00</elem>
+<elem key="fqdn">ATOM</elem>
+<elem key="domain_dns">ATOM</elem>
+<elem key="workgroup">WORKGROUP\x00</elem>
+<elem key="cpe">cpe:/o:microsoft:windows_10::-</elem>
+</script><script id="smb-security-mode" output="&#xa;  account_used: guest&#xa;  authentication_level: user&#xa;  challenge_response: supported&#xa;  message_signing: disabled (dangerous, but default)"><elem key="account_used">guest</elem>
+<elem key="authentication_level">user</elem>
+<elem key="challenge_response">supported</elem>
+<elem key="message_signing">disabled</elem>
+</script><script id="smb2-security-mode" output="&#xa;  2.02: &#xa;    Message signing enabled but not required"><table key="2.02">
+<elem>Message signing enabled but not required</elem>
+</table>
+</script><script id="smb2-time" output="&#xa;  date: 2021-06-16T12:56:09&#xa;  start_date: N/A"><elem key="date">2021-06-16T12:56:09</elem>
+<elem key="start_date">N/A</elem>
+</script></hostscript><trace proto="icmp">
+<hop ttl="1" ipaddr="10.10.14.1" rtt="400.40"/>
+<hop ttl="2" ipaddr="10.10.10.237" rtt="400.65"/>
+</trace>
+<times srtt="353035" rttvar="74566" to="651299"/>
+</host>
+<taskbegin task="NSE" time="1623882409"/>
+<taskend task="NSE" time="1623882409"/>
+<taskbegin task="NSE" time="1623882409"/>
+<taskend task="NSE" time="1623882409"/>
+<taskbegin task="NSE" time="1623882409"/>
+<taskend task="NSE" time="1623882409"/>
+<runstats><finished time="1623882409" timestr="Wed Jun 16 18:26:49 2021" summary="Nmap done at Wed Jun 16 18:26:49 2021; 1 IP address (1 host up) scanned in 68.15 seconds" elapsed="68.15" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

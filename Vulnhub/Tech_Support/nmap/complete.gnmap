@@ -1,0 +1,5 @@
+# Nmap 7.91 scan initiated Wed Jun 16 16:26:28 2021 as: nmap -sT -sV -sC -A -vv -p22,80,139,445 -oA nmap/complete 192.168.1.52
+# Ports scanned: TCP(4;22,80,139,445) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 192.168.1.52 ()	Status: Up
+Host: 192.168.1.52 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.2p2 Ubuntu 4ubuntu2.10 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.18 ((Ubuntu))/, 139/open/tcp//netbios-ssn//Samba smbd 3.X - 4.X (workgroup: WORKGROUP)/, 445/open/tcp//netbios-ssn//Samba smbd 4.3.11-Ubuntu (workgroup: WORKGROUP)/	OS: Linux 3.2 - 4.9	Seq Index: 257	IP ID Seq: All zeros
+# Nmap done at Wed Jun 16 16:26:53 2021 -- 1 IP address (1 host up) scanned in 24.38 seconds

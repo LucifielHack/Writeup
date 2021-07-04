@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Fri Jul  2 20:09:27 2021 as: nmap -T4 -sT -vv -p- -oA nmap/allports 10.13.37.10 -->
+<nmaprun scanner="nmap" args="nmap -T4 -sT -vv -p- -oA nmap/allports 10.13.37.10" start="1625278167" startstr="Fri Jul  2 20:09:27 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="Ping Scan" time="1625278167"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.13.37.10" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskend task="Ping Scan" time="1625278167" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1625278168"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1625278168"/>
+<taskbegin task="Connect Scan" time="1625278168"/>
+<taskprogress task="Connect Scan" time="1625278199" percent="2.58" remaining="1170" etc="1625279368"/>
+<taskprogress task="Connect Scan" time="1625278229" percent="3.93" remaining="1492" etc="1625279720"/>
+<taskprogress task="Connect Scan" time="1625278259" percent="6.11" remaining="1398" etc="1625279657"/>
+<taskprogress task="Connect Scan" time="1625278298" percent="9.02" remaining="1312" etc="1625279610"/>
+<taskprogress task="Connect Scan" time="1625278328" percent="11.46" remaining="1237" etc="1625279564"/>
+<taskprogress task="Connect Scan" time="1625278382" percent="15.55" remaining="1163" etc="1625279544"/>
+<taskprogress task="Connect Scan" time="1625278499" percent="23.36" remaining="1087" etc="1625279585"/>
+<taskprogress task="Connect Scan" time="1625278613" percent="30.55" remaining="1012" etc="1625279625"/>
+<taskprogress task="Connect Scan" time="1625278673" percent="34.97" remaining="939" etc="1625279612"/>
+<taskprogress task="Connect Scan" time="1625278745" percent="39.99" remaining="867" etc="1625279611"/>
+<taskprogress task="Connect Scan" time="1625278958" percent="49.90" remaining="794" etc="1625279751"/>
+<taskprogress task="Connect Scan" time="1625279156" percent="58.19" remaining="710" etc="1625279866"/>
+<taskprogress task="Connect Scan" time="1625279222" percent="62.80" remaining="625" etc="1625279846"/>
+<taskprogress task="Connect Scan" time="1625279312" percent="67.95" remaining="540" etc="1625279852"/>
+<taskprogress task="Connect Scan" time="1625279387" percent="72.90" remaining="454" etc="1625279840"/>
+<taskprogress task="Connect Scan" time="1625279501" percent="78.39" remaining="368" etc="1625279868"/>
+<taskprogress task="Connect Scan" time="1625279612" percent="83.71" remaining="282" etc="1625279893"/>
+<taskprogress task="Connect Scan" time="1625279684" percent="88.67" remaining="194" etc="1625279878"/>
+<taskprogress task="Connect Scan" time="1625279768" percent="93.68" remaining="108" etc="1625279876"/>
+<taskend task="Connect Scan" time="1625279932" extrainfo="65535 total ports"/>
+<host starttime="1625278167" endtime="1625279932"><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.13.37.10" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65361">
+<extrareasons reason="conn-refused" count="65361"/>
+</extraports>
+<extraports state="filtered" count="167">
+<extrareasons reason="no-responses" count="167"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="5555"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="freeciv" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8080"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http-proxy" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9201"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="wap-wsp-wtp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="55555"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="unknown" method="table" conf="3"/></port>
+</ports>
+<times srtt="258567" rttvar="935" to="262307"/>
+</host>
+<runstats><finished time="1625279932" timestr="Fri Jul  2 20:38:52 2021" summary="Nmap done at Fri Jul  2 20:38:52 2021; 1 IP address (1 host up) scanned in 1764.90 seconds" elapsed="1764.90" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

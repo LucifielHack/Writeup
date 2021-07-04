@@ -1,0 +1,5 @@
+# Nmap 7.91 scan initiated Thu Jun 10 13:28:40 2021 as: nmap -vv -sV -sC -sT -A -p22,80 -oA TheNotebook 10.10.10.230
+# Ports scanned: TCP(2;22,80) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.10.230 ()	Status: Up
+Host: 10.10.10.230 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//nginx 1.14.0 (Ubuntu)/	Seq Index: 261	IP ID Seq: All zeros
+# Nmap done at Thu Jun 10 13:29:06 2021 -- 1 IP address (1 host up) scanned in 25.95 seconds

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Sun Jun 27 09:07:54 2021 as: nmap -T4 -sT -vv -p- -oA nmap/allports 10.129.71.123 -->
+<nmaprun scanner="nmap" args="nmap -T4 -sT -vv -p- -oA nmap/allports 10.129.71.123" start="1624799274" startstr="Sun Jun 27 09:07:54 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="Ping Scan" time="1624799274"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.129.71.123" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskend task="Ping Scan" time="1624799274" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1624799274"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1624799275"/>
+<taskbegin task="Connect Scan" time="1624799275"/>
+<taskprogress task="Connect Scan" time="1624799306" percent="3.75" remaining="796" etc="1624800102"/>
+<taskprogress task="Connect Scan" time="1624799348" percent="8.82" remaining="755" etc="1624800102"/>
+<taskprogress task="Connect Scan" time="1624799444" percent="19.24" remaining="710" etc="1624800153"/>
+<taskprogress task="Connect Scan" time="1624799537" percent="28.30" remaining="664" etc="1624800201"/>
+<taskprogress task="Connect Scan" time="1624799594" percent="34.18" remaining="615" etc="1624800208"/>
+<taskprogress task="Connect Scan" time="1624799642" percent="39.38" remaining="566" etc="1624800207"/>
+<taskprogress task="Connect Scan" time="1624799717" percent="46.04" remaining="518" etc="1624800235"/>
+<taskprogress task="Connect Scan" time="1624799777" percent="51.70" remaining="469" etc="1624800246"/>
+<taskprogress task="Connect Scan" time="1624799813" percent="56.29" remaining="418" etc="1624800231"/>
+<taskprogress task="Connect Scan" time="1624799861" percent="61.42" remaining="369" etc="1624800229"/>
+<taskprogress task="Connect Scan" time="1624799874" percent="63.05" remaining="352" etc="1624800225"/>
+<taskprogress task="Connect Scan" time="1624799922" percent="68.17" remaining="303" etc="1624800224"/>
+<taskprogress task="Connect Scan" time="1624799967" percent="73.31" remaining="252" etc="1624800219"/>
+<taskprogress task="Connect Scan" time="1624800015" percent="78.57" remaining="202" etc="1624800217"/>
+<taskprogress task="Connect Scan" time="1624800057" percent="83.67" remaining="153" etc="1624800210"/>
+<taskprogress task="Connect Scan" time="1624800102" percent="88.81" remaining="105" etc="1624800206"/>
+<taskprogress task="Connect Scan" time="1624800150" percent="93.90" remaining="57" etc="1624800207"/>
+<taskend task="Connect Scan" time="1624800212" extrainfo="65535 total ports"/>
+<host starttime="1624799274" endtime="1624800212"><status state="up" reason="reset" reason_ttl="63"/>
+<address addr="10.129.71.123" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65530">
+<extrareasons reason="conn-refused" count="65530"/>
+</extraports>
+<port protocol="tcp" portid="2222"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="EtherNetIP-1" method="table" conf="3"/></port>
+<port protocol="tcp" portid="5555"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="freeciv" method="table" conf="3"/></port>
+<port protocol="tcp" portid="42135"><state state="open" reason="syn-ack" reason_ttl="0"/></port>
+<port protocol="tcp" portid="43097"><state state="open" reason="syn-ack" reason_ttl="0"/></port>
+<port protocol="tcp" portid="59777"><state state="open" reason="syn-ack" reason_ttl="0"/></port>
+</ports>
+<times srtt="149507" rttvar="452" to="151315"/>
+</host>
+<runstats><finished time="1624800212" timestr="Sun Jun 27 09:23:32 2021" summary="Nmap done at Sun Jun 27 09:23:32 2021; 1 IP address (1 host up) scanned in 938.02 seconds" elapsed="938.02" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,16 @@
+# Nmap 7.91 scan initiated Tue Jun 15 21:11:41 2021 as: nmap -T4 -vv -sT -p- -oA nmap/allports 192.168.1.51
+Nmap scan report for 192.168.1.51
+Host is up, received arp-response (0.00018s latency).
+Scanned at 2021-06-15 21:11:41 EDT for 2s
+Not shown: 65530 closed ports
+Reason: 65530 conn-refused
+PORT     STATE SERVICE         REASON
+22/tcp   open  ssh             syn-ack
+80/tcp   open  http            syn-ack
+5000/tcp open  upnp            syn-ack
+8081/tcp open  blackice-icecap syn-ack
+9001/tcp open  tor-orport      syn-ack
+MAC Address: 08:00:27:3C:22:7A (Oracle VirtualBox virtual NIC)
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Tue Jun 15 21:11:43 2021 -- 1 IP address (1 host up) scanned in 2.09 seconds

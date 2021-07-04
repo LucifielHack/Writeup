@@ -1,0 +1,28 @@
+# Nmap 7.91 scan initiated Fri Jul  2 12:35:52 2021 as: nmap -T4 -sT -vv -p- -oA nmap/allports 10.10.10.171
+Increasing send delay for 10.10.10.171 from 5 to 10 due to 23 out of 56 dropped probes since last increase.
+Warning: 10.10.10.171 giving up on port because retransmission cap hit (6).
+Nmap scan report for 10.10.10.171
+Host is up, received reset ttl 63 (0.16s latency).
+Scanned at 2021-07-02 12:35:52 -06 for 892s
+Not shown: 65519 closed ports
+Reason: 65519 conn-refused
+PORT      STATE    SERVICE REASON
+22/tcp    open     ssh     syn-ack
+80/tcp    open     http    syn-ack
+1376/tcp  filtered ibm-pps no-response
+15559/tcp filtered unknown no-response
+16534/tcp filtered unknown no-response
+16689/tcp filtered unknown no-response
+41197/tcp filtered unknown no-response
+43225/tcp filtered unknown no-response
+45903/tcp filtered unknown no-response
+46274/tcp filtered unknown no-response
+51852/tcp filtered unknown no-response
+55437/tcp filtered unknown no-response
+55542/tcp filtered unknown no-response
+56292/tcp filtered unknown no-response
+61093/tcp filtered unknown no-response
+63888/tcp filtered unknown no-response
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Fri Jul  2 12:50:44 2021 -- 1 IP address (1 host up) scanned in 892.30 seconds

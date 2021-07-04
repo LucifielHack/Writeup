@@ -1,0 +1,16 @@
+# Nmap 7.91 scan initiated Wed Jun 16 18:21:01 2021 as: nmap -T4 -sT -vv -p- -oA nmap/allports 10.10.10.237
+Nmap scan report for 10.10.10.237
+Host is up, received echo-reply ttl 127 (0.18s latency).
+Scanned at 2021-06-16 18:21:01 EDT for 217s
+Not shown: 65529 filtered ports
+Reason: 65529 no-responses
+PORT     STATE SERVICE      REASON
+80/tcp   open  http         syn-ack
+135/tcp  open  msrpc        syn-ack
+443/tcp  open  https        syn-ack
+445/tcp  open  microsoft-ds syn-ack
+5985/tcp open  wsman        syn-ack
+6379/tcp open  redis        syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Wed Jun 16 18:24:38 2021 -- 1 IP address (1 host up) scanned in 216.78 seconds

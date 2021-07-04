@@ -1,0 +1,5 @@
+# Nmap 7.91 scan initiated Thu Jun 10 16:26:43 2021 as: nmap -sU -sV -p161 -vv -oA nmap/snmp 10.10.10.241
+# Ports scanned: TCP(0;) UDP(1;161) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.10.241 (pit.htb)	Status: Up
+Host: 10.10.10.241 (pit.htb)	Ports: 161/open/udp//snmp//SNMPv1 server; net-snmp SNMPv3 server (public)/
+# Nmap done at Thu Jun 10 16:26:48 2021 -- 1 IP address (1 host up) scanned in 5.44 seconds

@@ -1,0 +1,5 @@
+# Nmap 7.91 scan initiated Thu Jun 10 20:20:54 2021 as: nmap -sT -vv -p- -oA nmap/allports 10.10.10.224
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.10.224 ()	Status: Up
+Host: 10.10.10.224 ()	Ports: 22/open/tcp//ssh///, 53/open/tcp//domain///, 88/open/tcp//kerberos-sec///, 3128/open/tcp//squid-http///, 9090/closed/tcp//zeus-admin///	Ignored State: filtered (65530)
+# Nmap done at Thu Jun 10 20:49:59 2021 -- 1 IP address (1 host up) scanned in 1745.87 seconds

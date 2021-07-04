@@ -1,0 +1,5 @@
+# Nmap 7.91 scan initiated Wed Jun 30 16:12:14 2021 as: nmap -T4 -sT -sV -sC -A -vv -p22,80,2379,2380,8443,10249,10250,10256,31337 -oA nmap/complete 10.10.10.235
+# Ports scanned: TCP(9;22,80,2379-2380,8443,10249-10250,10256,31337) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.10.235 (unobtainium.htb)	Status: Up
+Host: 10.10.10.235 (unobtainium.htb)	Ports: 22/open/tcp//ssh//OpenSSH 8.2p1 Ubuntu 4ubuntu0.2 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.41 ((Ubuntu))/, 2379/open/tcp//ssl|etcd-client?///, 2380/open/tcp//ssl|etcd-server?///, 8443/open/tcp//ssl|https-alt///, 10249/open/tcp//http//Golang net|http server (Go-IPFS json-rpc or InfluxDB API)/, 10250/open/tcp//ssl|http//Golang net|http server (Go-IPFS json-rpc or InfluxDB API)/, 10256/open/tcp//http//Golang net|http server (Go-IPFS json-rpc or InfluxDB API)/, 31337/open/tcp//http//Node.js Express framework/	Seq Index: 261	IP ID Seq: All zeros
+# Nmap done at Wed Jun 30 16:14:30 2021 -- 1 IP address (1 host up) scanned in 136.27 seconds
