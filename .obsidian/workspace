@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "HTB/Machines/Ophiuchi/README.md",
-            "mode": "preview"
+            "file": "README.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/Machines/Ophiuchi/README.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,10 +88,10 @@
   },
   "active": "a1c2ae716b2eee31",
   "lastOpenFiles": [
+    "README.md",
     "HTB/Machines/Ophiuchi/README.md",
     "HTB/Machines/Ophiuchi/Images/Pasted image 20210704013114.png",
     "HTB/Machines/Ophiuchi/Untitled.md",
-    "README.md",
     "HTB/Fortresses/Jet/README.md",
     "HTB/Fortresses/Jet/Untitled.md",
     "HTB/Traverxec/README.md",
