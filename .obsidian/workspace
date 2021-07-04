@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "HTB/Machines/Traverxec/README.md",
-            "mode": "source"
+            "file": "README.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/Machines/Traverxec/README.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,8 +88,8 @@
   },
   "active": "a1c2ae716b2eee31",
   "lastOpenFiles": [
-    "HTB/Machines/Traverxec/README.md",
     "README.md",
+    "HTB/Machines/Traverxec/README.md",
     "HTB/Machines/knife/README.md",
     "HTB/Machines/Monitors/README.md",
     "HTB/Machines/dynstr/README.md",
