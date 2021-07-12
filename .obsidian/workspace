@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "HTB/Machines/Seal/README.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "HTB/Machines/Seal/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "a1c2ae716b2eee31",
   "lastOpenFiles": [
+    "HTB/Machines/Seal/README.md",
     "README.md",
     "HTB/Machines/Seal/Untitled.md",
     "Vulnhub/Pylington/Untitled.md",
@@ -96,7 +97,6 @@
     "HTB/Machines/Bastion/Untitled.md",
     "HTB/Machines/Starting Point/Archetype/README.md",
     "HTB/Machines/Starting Point/Archetype/Untitled.md",
-    "HTB/Machines/OpenAdmin/README.md",
-    "HTB/Fortresses/Jet/README.md"
+    "HTB/Machines/OpenAdmin/README.md"
   ]
 }

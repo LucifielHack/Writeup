@@ -320,7 +320,7 @@ Here we are permission to run ansible-playebook as a super user..
 This blog help me to learn about ansible-playbook.
 
 ```blog
-https://docs.ansible.com/ansible/latest/user_guide/playbooks.html
+https://docs.ansible.com/ansible/2.5/modules/copy_module.html
 ```
 
 ```yml
