@@ -89,14 +89,14 @@
   "active": "a1c2ae716b2eee31",
   "lastOpenFiles": [
     "README.md",
+    "HTB/Machines/Seal/Untitled.md",
+    "Vulnhub/Pylington/Untitled.md",
     "HTB/Machines/Traverxec/README.md",
-    "HTB/Machines/knife/README.md",
-    "HTB/Machines/Monitors/README.md",
-    "HTB/Machines/dynstr/README.md",
-    "HTB/Machines/Pit/README.md",
-    "HTB/Machines/Tenet/README.md",
-    "HTB/Machines/TheNotebook/README.md",
-    "HTB/Machines/Writeup/README.md",
-    "HTB/Machines/OpenAdmin/README.md"
+    "HTB/Machines/Bastion/README.md",
+    "HTB/Machines/Bastion/Untitled.md",
+    "HTB/Machines/Starting Point/Archetype/README.md",
+    "HTB/Machines/Starting Point/Archetype/Untitled.md",
+    "HTB/Machines/OpenAdmin/README.md",
+    "HTB/Fortresses/Jet/README.md"
   ]
 }

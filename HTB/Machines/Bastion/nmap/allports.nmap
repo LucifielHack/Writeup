@@ -1,0 +1,60 @@
+# Nmap 7.91 scan initiated Tue Jul  6 17:44:38 2021 as: nmap -T4 -sT -vv -p- -oA nmap/allports 10.10.10.134
+Warning: 10.10.10.134 giving up on port because retransmission cap hit (6).
+Nmap scan report for 10.10.10.134
+Host is up, received reset ttl 127 (0.18s latency).
+Scanned at 2021-07-06 17:44:38 -06 for 974s
+Not shown: 65486 closed ports
+Reason: 65486 conn-refused
+PORT      STATE    SERVICE      REASON
+22/tcp    open     ssh          syn-ack
+135/tcp   open     msrpc        syn-ack
+139/tcp   open     netbios-ssn  syn-ack
+149/tcp   filtered aed-512      no-response
+445/tcp   open     microsoft-ds syn-ack
+4694/tcp  filtered unknown      no-response
+5680/tcp  filtered canna        no-response
+5985/tcp  open     wsman        syn-ack
+6096/tcp  filtered unknown      no-response
+8319/tcp  filtered unknown      no-response
+8711/tcp  filtered nvc          no-response
+12793/tcp filtered unknown      no-response
+12995/tcp filtered unknown      no-response
+18829/tcp filtered unknown      no-response
+22745/tcp filtered unknown      no-response
+23903/tcp filtered unknown      no-response
+28614/tcp filtered unknown      no-response
+28791/tcp filtered unknown      no-response
+31540/tcp filtered unknown      no-response
+32477/tcp filtered unknown      no-response
+35061/tcp filtered unknown      no-response
+35546/tcp filtered unknown      no-response
+38635/tcp filtered unknown      no-response
+38640/tcp filtered unknown      no-response
+42287/tcp filtered unknown      no-response
+45419/tcp filtered unknown      no-response
+46078/tcp filtered unknown      no-response
+47001/tcp open     winrm        syn-ack
+49196/tcp filtered unknown      no-response
+49337/tcp filtered unknown      no-response
+49664/tcp open     unknown      syn-ack
+49665/tcp open     unknown      syn-ack
+49666/tcp open     unknown      syn-ack
+49667/tcp open     unknown      syn-ack
+49668/tcp open     unknown      syn-ack
+49669/tcp open     unknown      syn-ack
+49670/tcp open     unknown      syn-ack
+51718/tcp filtered unknown      no-response
+54275/tcp filtered unknown      no-response
+58170/tcp filtered unknown      no-response
+58351/tcp filtered unknown      no-response
+58429/tcp filtered unknown      no-response
+60299/tcp filtered unknown      no-response
+60650/tcp filtered unknown      no-response
+61914/tcp filtered unknown      no-response
+61959/tcp filtered unknown      no-response
+62974/tcp filtered unknown      no-response
+63986/tcp filtered unknown      no-response
+65131/tcp filtered unknown      no-response
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Tue Jul  6 18:00:52 2021 -- 1 IP address (1 host up) scanned in 974.12 seconds

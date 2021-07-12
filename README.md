@@ -32,6 +32,7 @@
 	<b>Pit</b></sub></a></td>
     <td align="center"><a href="HTB/Machines/Ophiuchi/README.md"><img src="https://www.hackthebox.eu/storage/avatars/82b3289bbabf88da886bc9f45802ac17.png" width="100px;" alt=""/><br /><sub><b>Ophiuchi</b></sub></a></td>
     <td align="center"><a href="HTB/Machines/dynstr/README.md"><img src="https://www.hackthebox.eu/storage/avatars/351a3dc43bf6d17690d56be707dc1725.png" width="100px;" alt=""/><br /><sub><b>dynstr</b></sub></a></td>
+    <td align="center"><a href="HTB/Machines/Seal/README.md"><img src="https://www.hackthebox.eu/storage/avatars/3ebb6fead558552c03f68a5895fb3d15.png" width="100px;" alt=""/><br /><sub><b>Seal</b></sub></a></td>
  	<td align="center"><a href="HTB/Machines/Monitors/README.md"><img src="https://www.hackthebox.eu/storage/avatars/c4bd1d7e14878f3238f9fc2b428b6282.png" width="100px;" alt=""/><br /><sub><b>Monitors</b></sub></a></td>
   </tr>
 </table>

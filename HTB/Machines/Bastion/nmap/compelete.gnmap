@@ -1,0 +1,5 @@
+# Nmap 7.91 scan initiated Tue Jul  6 18:03:27 2021 as: nmap -T4 -sT -sV -sC -A -vv -p22,135,139,445,5985,47001,49664,49665,49666,49667,49668,49669,49670 -oA nmap/compelete 10.10.10.134
+# Ports scanned: TCP(13;22,135,139,445,5985,47001,49664-49670) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.10.134 ()	Status: Up
+Host: 10.10.10.134 ()	Ports: 22/open/tcp//ssh//OpenSSH for_Windows_7.9 (protocol 2.0)/, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds//Windows Server 2016 Standard 14393 microsoft-ds/, 5985/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/, 47001/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/, 49664/open/tcp//msrpc//Microsoft Windows RPC/, 49665/open/tcp//msrpc//Microsoft Windows RPC/, 49666/open/tcp//msrpc//Microsoft Windows RPC/, 49667/open/tcp//msrpc//Microsoft Windows RPC/, 49668/open/tcp//msrpc//Microsoft Windows RPC/, 49669/open/tcp//msrpc//Microsoft Windows RPC/, 49670/open/tcp//msrpc//Microsoft Windows RPC/	Seq Index: 263	IP ID Seq: Incremental
+# Nmap done at Tue Jul  6 18:04:46 2021 -- 1 IP address (1 host up) scanned in 79.94 seconds
